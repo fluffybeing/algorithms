@@ -10,6 +10,7 @@
 		B7F6F74B1E852FF6005AF787 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F74A1E852FF6005AF787 /* main.swift */; };
 		B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7521E853100005AF787 /* IsUnique.swift */; };
 		B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */; };
+		B7F6F7571E8543AE005AF787 /* URLifyString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7561E8543AE005AF787 /* URLifyString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		B7F6F74A1E852FF6005AF787 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B7F6F7521E853100005AF787 /* IsUnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsUnique.swift; sourceTree = "<group>"; };
 		B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermutationPalindrome.swift; sourceTree = "<group>"; };
+		B7F6F7561E8543AE005AF787 /* URLifyString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLifyString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			children = (
 				B7F6F7521E853100005AF787 /* IsUnique.swift */,
 				B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */,
+				B7F6F7561E8543AE005AF787 /* URLifyString.swift */,
 			);
 			name = "Arrays and Strings";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */,
 				B7F6F74B1E852FF6005AF787 /* main.swift in Sources */,
 				B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */,
+				B7F6F7571E8543AE005AF787 /* URLifyString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
