@@ -24,7 +24,6 @@ func matrixMultiplication(a:[[Int]], b:[[Int]])-> [[Int]] {
             // Iterate through row of b
             for k in 0..<b.count {
                 c[i][j] += a[i][k] * b[k][j]
-
             }
         }
     }
