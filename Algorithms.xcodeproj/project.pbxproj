@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F111E8640750089FC1F /* MatrixRotation.swift */; };
 		B7F6F74B1E852FF6005AF787 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F74A1E852FF6005AF787 /* main.swift */; };
 		B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7521E853100005AF787 /* IsUnique.swift */; };
 		B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B7870F111E8640750089FC1F /* MatrixRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatrixRotation.swift; path = Algorithms/Matrix/MatrixRotation.swift; sourceTree = SOURCE_ROOT; };
 		B7F6F7471E852FF6005AF787 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F6F74A1E852FF6005AF787 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B7F6F7521E853100005AF787 /* IsUnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsUnique.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				B7F6F7621E859F56005AF787 /* MatrixMultiplication.swift */,
+				B7870F111E8640750089FC1F /* MatrixRotation.swift */,
 			);
 			path = Matrix;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				B7F6F7631E859F56005AF787 /* MatrixMultiplication.swift in Sources */,
 				B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */,
 				B7F6F74B1E852FF6005AF787 /* main.swift in Sources */,
+				B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */,
 				B7F6F75C1E859F14005AF787 /* FindMatch.swift in Sources */,
 				B7F6F7591E8561F2005AF787 /* OneAway.swift in Sources */,
 				B7F6F7601E859F2E005AF787 /* SelectionSort.swift in Sources */,
@@ -322,6 +326,7 @@
 				B7F6F7501E852FF6005AF787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,9 @@ import Foundation
 // implement general matrix multiplication function
 func matrixMultiplication(a:[[Int]], b:[[Int]])-> [[Int]] {
 
-    let bColumnLenght = b[0].count
+    let bColumnLength = b[0].count
 
-    var c = [[Int]](repeating:[Int](repeating:0, count: bColumnLenght), count:a.count)
+    var c = [[Int]](repeating:[Int](repeating:0, count: bColumnLength), count:a.count)
 
     // check if the dimesion of column of the first matrix equals to rows of
     // second matrix
@@ -20,7 +20,7 @@ func matrixMultiplication(a:[[Int]], b:[[Int]])-> [[Int]] {
     // Iterate through row of a
     for i in 0..<a.count {
         // Iterate through column of b
-        for j in 0..<bColumnLenght {
+        for j in 0..<bColumnLength {
             // Iterate through row of b
             for k in 0..<b.count {
                 c[i][j] += a[i][k] * b[k][j]
@@ -33,6 +33,6 @@ func matrixMultiplication(a:[[Int]], b:[[Int]])-> [[Int]] {
 
 // Test some cases
 func matrixMultiplicationTest() {
-    matrixMultiplication(a: [[2, 1], [3, 2]], b: [[1], [1]])
-    matrixMultiplication(a: [[1, 2, 3], [4, 3, 5], [6, 7, 8]], b: [[4, 2], [1, 5], [6, -2]])
+    _ = matrixMultiplication(a: [[2, 1], [3, 2]], b: [[1], [1]])
+    _ = matrixMultiplication(a: [[1, 2, 3], [4, 3, 5], [6, 7, 8]], b: [[4, 2], [1, 5], [6, -2]])
 }

@@ -26,10 +26,13 @@ func stringCompression(input: String) -> String {
         }
     }
     compressedString.append(Character("\(sameCharacterCounter)"))
-    return String(compressedString)
+    
+    // If compressed string length is same or greater then return the old
+    
+    return String(compressedString) <= String(input) ? String(input) : String(compressedString)
 }
 
 func stringCompressionTest() {
-    stringCompression(input: "aaabbcccaa")
+    assert(stringCompression(input: "aaabbcccaa") == "a3b2c3a2")
 }
 
