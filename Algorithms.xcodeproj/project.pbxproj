@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F111E8640750089FC1F /* MatrixRotation.swift */; };
+		B7870F141E86546B0089FC1F /* StringRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F131E86546B0089FC1F /* StringRotation.swift */; };
 		B7F6F74B1E852FF6005AF787 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F74A1E852FF6005AF787 /* main.swift */; };
 		B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7521E853100005AF787 /* IsUnique.swift */; };
 		B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		B7870F111E8640750089FC1F /* MatrixRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatrixRotation.swift; path = Algorithms/Matrix/MatrixRotation.swift; sourceTree = SOURCE_ROOT; };
+		B7870F131E86546B0089FC1F /* StringRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringRotation.swift; sourceTree = "<group>"; };
 		B7F6F7471E852FF6005AF787 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F6F74A1E852FF6005AF787 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B7F6F7521E853100005AF787 /* IsUnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsUnique.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				B7F6F7561E8543AE005AF787 /* URLifyString.swift */,
 				B7F6F7581E8561F2005AF787 /* OneAway.swift */,
 				B7F6F77C1E85A470005AF787 /* StringCompression.swift */,
+				B7870F131E86546B0089FC1F /* StringRotation.swift */,
 			);
 			path = "Arrays and Strings";
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				B7F6F7601E859F2E005AF787 /* SelectionSort.swift in Sources */,
 				B7F6F75E1E859F23005AF787 /* Insertion.swift in Sources */,
 				B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */,
+				B7870F141E86546B0089FC1F /* StringRotation.swift in Sources */,
 				B7F6F7571E8543AE005AF787 /* URLifyString.swift in Sources */,
 				B7F6F7661E859F8B005AF787 /* IntegerDivision.swift in Sources */,
 			);
