@@ -8,7 +8,8 @@
 
 import Foundation
 
-
+// Find the first matching charater and reverse the subsstring
+// O(N)
 func stringRotation(firstString: String, secondString: String) -> Bool {
     
     if firstString.characters.count != secondString.characters.count {
@@ -36,3 +37,7 @@ func stringRotationTest() {
     assert(stringRotation(firstString: "Calculateta", secondString: "taCalculate") == true)
     assert(stringRotation(firstString: "waterbottle", secondString: "erbottlewat") == false)
 }
+
+// TODO
+// Add the same string two times and check whether given string
+// is available or not
