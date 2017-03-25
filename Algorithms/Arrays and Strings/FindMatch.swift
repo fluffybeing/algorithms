@@ -21,7 +21,7 @@ func findMatch(pattern:String, text:String)-> Bool {
 
 // Test some cases
 func findMatchTest() {
-    findMatch(pattern: "abaa", text: "abaa")
-    findMatch(pattern: "ab", text: "Rahul")
-    findMatch(pattern: "hello", text: "HelloWorld")
+    _ = findMatch(pattern: "abaa", text: "abaa")
+    _ = findMatch(pattern: "ab", text: "Rahul")
+    _ = findMatch(pattern: "hello", text: "HelloWorld")
 }

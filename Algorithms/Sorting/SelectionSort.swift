@@ -23,5 +23,5 @@ func selectionSort<T>( items:[T]) -> [T] where T: Comparable {
 
 // Test the function
 func selectionSortTest() {
-    selectionSort(items: ["b", "a", "c"]) // Expected 1, 4, 6, 7, 10
+    _ = selectionSort(items: ["b", "a", "c"]) // Expected 1, 4, 6, 7, 10
 }

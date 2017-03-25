@@ -17,8 +17,8 @@ func insertionSort( items:[Int] ) -> [Int] {
 
 // Test the function
 func insertionSortTest() {
-    insertionSort(items: [1, 4, 10, 7, 6]) // Expected 1, 4, 6, 7, 10
-    insertionSort(items: [2, 1])
-    insertionSort(items: [10, 15, -1, -5])
+    _ = insertionSort(items: [1, 4, 10, 7, 6]) // Expected 1, 4, 6, 7, 10
+    _ = insertionSort(items: [2, 1])
+    _ = insertionSort(items: [10, 15, -1, -5])
     // insertionSort([]) Generic type is not taking empty array
 }
