@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+// O(N)
 func loopDetection(head: Node<Int>) -> (Bool, Int?) {
     
     var fast: Node<Int>? = head
@@ -31,6 +31,7 @@ func loopDetection(head: Node<Int>) -> (Bool, Int?) {
     
     // keep the fast pointer whether it is
     // but set the slow pointer to point head
+    // m + k = (2p-q)n
     slow = head
     if isCycle == true {
         
