@@ -12,6 +12,7 @@
 		B745FD271E87214B009E548A /* DeleteMiddleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745FD261E87214B009E548A /* DeleteMiddleNode.swift */; };
 		B745FD291E8724EC009E548A /* Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745FD281E8724EC009E548A /* Partition.swift */; };
 		B745FD2B1E873460009E548A /* SumLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745FD2A1E873460009E548A /* SumLists.swift */; };
+		B745FD2D1E878888009E548A /* LoopDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B745FD2C1E878888009E548A /* LoopDetection.swift */; };
 		B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F111E8640750089FC1F /* MatrixRotation.swift */; };
 		B7870F141E86546B0089FC1F /* StringRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F131E86546B0089FC1F /* StringRotation.swift */; };
 		B7870F181E869B200089FC1F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F171E869B200089FC1F /* Node.swift */; };
@@ -47,6 +48,7 @@
 		B745FD261E87214B009E548A /* DeleteMiddleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteMiddleNode.swift; sourceTree = "<group>"; };
 		B745FD281E8724EC009E548A /* Partition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partition.swift; sourceTree = "<group>"; };
 		B745FD2A1E873460009E548A /* SumLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumLists.swift; sourceTree = "<group>"; };
+		B745FD2C1E878888009E548A /* LoopDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopDetection.swift; sourceTree = "<group>"; };
 		B7870F111E8640750089FC1F /* MatrixRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatrixRotation.swift; path = Algorithms/Matrix/MatrixRotation.swift; sourceTree = SOURCE_ROOT; };
 		B7870F131E86546B0089FC1F /* StringRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringRotation.swift; sourceTree = "<group>"; };
 		B7870F171E869B200089FC1F /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				B745FD261E87214B009E548A /* DeleteMiddleNode.swift */,
 				B745FD281E8724EC009E548A /* Partition.swift */,
 				B745FD2A1E873460009E548A /* SumLists.swift */,
+				B745FD2C1E878888009E548A /* LoopDetection.swift */,
 			);
 			path = Linklist;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				B7F6F77D1E85A470005AF787 /* StringCompression.swift in Sources */,
 				B7F6F7631E859F56005AF787 /* MatrixMultiplication.swift in Sources */,
 				B745FD251E870B39009E548A /* ReturnKTHLast.swift in Sources */,
+				B745FD2D1E878888009E548A /* LoopDetection.swift in Sources */,
 				B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */,
 				B7F6F74B1E852FF6005AF787 /* main.swift in Sources */,
 				B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */,
