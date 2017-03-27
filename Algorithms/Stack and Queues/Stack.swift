@@ -12,22 +12,22 @@ import Foundation
 // Stack Operations:
 // push pop peek
 
-struct Stack<Element> {
+public struct Stack<Element> {
     fileprivate var array: [Element] = []
     
     public var isEmpty: Bool {
         return array.isEmpty
     }
     
-    mutating func push(_ element: Element) {
+    public mutating func push(_ element: Element) {
         array.append(element)
     }
     
-    mutating func pop() -> Element? {
+    public mutating func pop() -> Element? {
         return array.popLast()
     }
     
-    func peek() -> Element? {
+    public func peek() -> Element? {
         return array.last
     }
 }
@@ -51,7 +51,7 @@ func stackTest() {
 
 
 extension Stack: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         let topMessage = "---Stack---\n"
         let bottomMessage = "\n------------\n"
         
