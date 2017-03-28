@@ -33,7 +33,6 @@ func isPermutationPalindrome(input: String) -> Bool {
         if value % 2 == 1 {
             flag = true
         }
-        
     }
     return true
 }
