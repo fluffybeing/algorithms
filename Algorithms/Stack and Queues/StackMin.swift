@@ -9,6 +9,7 @@
 import Foundation
 
 
+// Custom stack node to keep min of substack
 class StackNode: CustomStringConvertible {
     fileprivate var value: Int
     fileprivate var min: Int
