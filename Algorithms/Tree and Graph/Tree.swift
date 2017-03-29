@@ -34,6 +34,10 @@ func treeNodeTest() {
     let firstChildNode = TreeNode(value: "firstChild")
     let secondChildNode = TreeNode(value: "SecondChild")
     
+    let secondLevelChild = TreeNode(value: "SecondLevelChild")
+    
+    firstChildNode.add(child: secondLevelChild)
+    
     rootNode.add(child: firstChildNode)
     rootNode.add(child: secondChildNode)
     
@@ -48,7 +52,6 @@ extension TreeNode: CustomStringConvertible {
         if !children.isEmpty {
             text += " {" + children.map {$0.description}.joined(separator: ", ") + "} "
         }
-        
         return text
     }
 }
@@ -67,3 +70,4 @@ extension TreeNode where T: Equatable {
         return nil
     }
 }
+
