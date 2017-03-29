@@ -70,9 +70,9 @@ extension AdjancencyListGraph: Graphable {
         for (vertex, edges) in adjacencyDict {
             var edgeString = ""
             for (_, edge) in edges.enumerated() {
-                edgeString.append("\(edge.destination)")
+                edgeString.append("\(edge.destination) ")
             }
-        result.append("\(vertex) --> [\(edgeString)] \n")
+        result.append("\(vertex) --> { \(edgeString)} \n")
         }
         return result
     }
@@ -84,12 +84,19 @@ func initialiseAdjacencyListGraph() -> (AdjancencyListGraph<String>, Vertex<Stri
     let a = graph.createVertex(data: "a")
     let b = graph.createVertex(data: "b")
     let c = graph.createVertex(data: "c")
-    
+    let d = graph.createVertex(data: "d")
+
+    //  a ---> b ----> c <-
+    //  | <--- ^         \_|
+    //  v      |
+    //  d -----
     graph.add(.undirected, from: a, to: b, weight: 5)
-    graph.add(.undirected, from: b, to: c, weight: 6)
-    graph.add(.undirected, from: a, to: c, weight: 3)
+    graph.add(.directed, from: b, to: c, weight: 6)
+    graph.add(.directed, from: c, to: c, weight: 3)
+    graph.add(.directed, from: a, to: d, weight: 3)
+    graph.add(.directed, from: d, to: b, weight: 3)
     
     print(graph.description)
     
-    return (graph, a)
+    return (graph, b)
 }
