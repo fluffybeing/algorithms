@@ -78,7 +78,7 @@ extension AdjancencyListGraph: Graphable {
     }
 }
 
-func adjacencyListGraphTest() {
+func initialiseAdjacencyListGraph() -> (AdjancencyListGraph<String>, Vertex<String>) {
     let graph = AdjancencyListGraph<String>()
     
     let a = graph.createVertex(data: "a")
@@ -90,4 +90,6 @@ func adjacencyListGraphTest() {
     graph.add(.undirected, from: a, to: c, weight: 3)
     
     print(graph.description)
+    
+    return (graph, a)
 }
