@@ -1,5 +1,5 @@
 //
-//  DFS.swift
+//  PathBetweenVertex.swift
 //  Algorithms
 //
 //  Created by Rahul Ranjan on 3/29/17.
@@ -8,8 +8,7 @@
 
 import Foundation
 
-
-func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String>) -> [Vertex<String>]? {
+func pathBetweenVertex(graph: AdjancencyListGraph<String> , source: Vertex<String>, destination: Vertex<String>) -> [Vertex<String>]? {
     
     var stack = Stack<Vertex<String>>()
     var visited = { () -> [Vertex<String> : Bool] in
@@ -20,7 +19,7 @@ func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String
         }
         return visited
     }()
-
+    
     var path: [Vertex<String>]? = []
     
     stack.push(source)
@@ -29,7 +28,11 @@ func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String
     while !stack.isEmpty {
         let topElement = stack.pop()
         path?.append(topElement!)
-
+        
+        if topElement! == destination {
+            return path
+        }
+        
         
         guard let neigbhours = graph.edges(from: topElement!) else {
             return path
@@ -43,13 +46,29 @@ func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String
             }
         }
     }
-    return path
+    return nil
 }
 
-func depthFirstSearchTest() {
+func pathBetweenVertexTest() {
+    let graph = AdjancencyListGraph<String>()
     
-    let (graph, source) = initialiseAdjacencyListGraph()
-    let path = depthFirstSearch(graph: graph, source: source)
+    let a = graph.createVertex(data: "a")
+    let b = graph.createVertex(data: "b")
+    let c = graph.createVertex(data: "c")
+    let d = graph.createVertex(data: "d")
     
-    print(path!)
+    //  a ---> b ----> c <-
+    //  | <--- ^         \_|
+    //  v      |
+    //  d -----
+    graph.add(.undirected, from: a, to: b, weight: 5)
+    graph.add(.directed, from: b, to: c, weight: 6)
+    graph.add(.directed, from: c, to: c, weight: 3)
+    graph.add(.directed, from: a, to: d, weight: 3)
+    graph.add(.directed, from: d, to: b, weight: 3)
+    
+    let path = pathBetweenVertex(graph: graph, source: a, destination: d)
+    assert(path! == [a, d])
 }
+
+// TODO Print shortest path

@@ -11,7 +11,14 @@ import Foundation
 func breadthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String>) -> [Vertex<String>]? {
     
     var queue = Queue<Vertex<String>>()
-    var visited: [Vertex<String>: Bool] = [:]
+    var visited = { () -> [Vertex<String> : Bool] in 
+        var visited: [Vertex<String>: Bool] = [:]
+        
+        for (key, _) in graph.adjacencyDict {
+            visited[key] = false
+        }
+        return visited
+    }()
     var path: [Vertex<String>] = []
     
     queue.enqueue(source)
@@ -29,7 +36,7 @@ func breadthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<Stri
         for neigbhour in neigbhours {
             let destinationVertex = neigbhour.destination
             
-            if visited[destinationVertex] == nil || visited[destinationVertex] == false {
+            if visited[destinationVertex] == false {
                 queue.enqueue(destinationVertex)
                 visited[destinationVertex] = true
             }
