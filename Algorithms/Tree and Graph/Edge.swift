@@ -20,7 +20,7 @@ public struct Edge<T: Hashable> {
 
 extension Edge: Hashable {
     public var hashValue: Int {
-        return "\(source)\(destination)\(weight)".hashValue
+        return "\(source)\(destination)\(String(describing: weight))".hashValue
     }
     
     static public func ==(lhs: Edge<T>, rhs: Edge<T>) -> Bool {
