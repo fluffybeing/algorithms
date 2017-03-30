@@ -23,26 +23,19 @@ public class BSTNode<T: Comparable> {
 
 
 public class BST<T: Comparable> {
+    var root: BSTNode<T>?
     
-    func insert(root: BSTNode<T>?, key: BSTNode<T>) {
+    func insert(root: BSTNode<T>?, key: BSTNode<T>) -> BSTNode<T> {
         var root: BSTNode<T>? = root
         
         if root?.data == nil {
             root = key
-            return
         } else if key.data <= root!.data {
-            if root?.left != nil {
-                self.insert(root: root?.left, key: key)
-            } else {
-                root?.left = key
-            }
+            root?.left = self.insert(root: root?.left, key: key)
         } else {
-            if root?.right != nil {
-                self.insert(root: root?.right, key: key)
-            } else {
-                root?.right = key
-            }
+            root?.right = self.insert(root: root?.right, key: key)
         }
+        return root!
     }
     
     func inorder(node: BSTNode<T>?) {
@@ -84,20 +77,20 @@ public class BST<T: Comparable> {
 func bstTest() {
     let bst = BST<Int>()
     
-    let root = BSTNode(data: 5)
+    // Add the root node
+    bst.root = BSTNode(data: 7)
     
-    for i in 1..<4 {
+    for i in 1..<6 {
         let node = BSTNode<Int>(data: i)
-        bst.insert(root: root, key: node)
+        _ = bst.insert(root: bst.root, key: node)
     }
     
     for i in 6..<10 {
         let node = BSTNode<Int>(data: i)
-        bst.insert(root: root, key: node)
+        _ = bst.insert(root: bst.root, key: node)
     }
-
     
-    bst.inorder(node: root)
+    bst.inorder(node: bst.root)
 }
 
 
