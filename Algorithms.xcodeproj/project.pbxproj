@@ -35,6 +35,7 @@
 		B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */; };
 		B7D19FAC1E8BCEA200AE628C /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FAB1E8BCEA200AE628C /* BST.swift */; };
 		B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87711E8E279C00179DA3 /* IsBST.swift */; };
+		B7DD87741E8E6C9200179DA3 /* ListOfDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */; };
 		B7F6F74B1E852FF6005AF787 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F74A1E852FF6005AF787 /* main.swift */; };
 		B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7521E853100005AF787 /* IsUnique.swift */; };
 		B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */; };
@@ -89,6 +90,7 @@
 		B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathBetweenVertex.swift; sourceTree = "<group>"; };
 		B7D19FAB1E8BCEA200AE628C /* BST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 		B7DD87711E8E279C00179DA3 /* IsBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBST.swift; sourceTree = "<group>"; };
+		B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfDepth.swift; sourceTree = "<group>"; };
 		B7F6F7471E852FF6005AF787 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F6F74A1E852FF6005AF787 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B7F6F7521E853100005AF787 /* IsUnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsUnique.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				B7D19FAB1E8BCEA200AE628C /* BST.swift */,
 				B79B8A2E1E8D6FB6000AE107 /* MinimalTree.swift */,
 				B7DD87711E8E279C00179DA3 /* IsBST.swift */,
+				B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */,
 			);
 			path = "Tree and Graph";
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				B7D19FA01E8AA15400AE628C /* Edge.swift in Sources */,
 				B7D19FA61E8B9A0C00AE628C /* DFS.swift in Sources */,
 				B7D19FA41E8B7EF100AE628C /* AdjacencyList.swift in Sources */,
+				B7DD87741E8E6C9200179DA3 /* ListOfDepth.swift in Sources */,
 				B7F6F7661E859F8B005AF787 /* IntegerDivision.swift in Sources */,
 				B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */,
 				B7253BCF1E8930AC00514FCC /* ThreeStackArray.swift in Sources */,
