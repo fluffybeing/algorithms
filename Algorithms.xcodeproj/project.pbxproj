@@ -23,6 +23,7 @@
 		B7870F141E86546B0089FC1F /* StringRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F131E86546B0089FC1F /* StringRotation.swift */; };
 		B7870F181E869B200089FC1F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F171E869B200089FC1F /* Node.swift */; };
 		B7870F1A1E86AAEA0089FC1F /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7870F191E86AAEA0089FC1F /* LinkList.swift */; };
+		B79B8A2F1E8D6FB6000AE107 /* MinimalTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79B8A2E1E8D6FB6000AE107 /* MinimalTree.swift */; };
 		B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F981E8A7B7100AE628C /* Tree.swift */; };
 		B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9A1E8A9AC300AE628C /* Graph.swift */; };
 		B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9D1E8AA00200AE628C /* Vertex.swift */; };
@@ -33,6 +34,7 @@
 		B7D19FA81E8BAEEC00AE628C /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FA71E8BAEEC00AE628C /* BFS.swift */; };
 		B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */; };
 		B7D19FAC1E8BCEA200AE628C /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FAB1E8BCEA200AE628C /* BST.swift */; };
+		B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87711E8E279C00179DA3 /* IsBST.swift */; };
 		B7F6F74B1E852FF6005AF787 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F74A1E852FF6005AF787 /* main.swift */; };
 		B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7521E853100005AF787 /* IsUnique.swift */; };
 		B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */; };
@@ -75,6 +77,7 @@
 		B7870F131E86546B0089FC1F /* StringRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringRotation.swift; sourceTree = "<group>"; };
 		B7870F171E869B200089FC1F /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		B7870F191E86AAEA0089FC1F /* LinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		B79B8A2E1E8D6FB6000AE107 /* MinimalTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalTree.swift; sourceTree = "<group>"; };
 		B7D19F981E8A7B7100AE628C /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		B7D19F9A1E8A9AC300AE628C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		B7D19F9D1E8AA00200AE628C /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
@@ -85,6 +88,7 @@
 		B7D19FA71E8BAEEC00AE628C /* BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathBetweenVertex.swift; sourceTree = "<group>"; };
 		B7D19FAB1E8BCEA200AE628C /* BST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
+		B7DD87711E8E279C00179DA3 /* IsBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBST.swift; sourceTree = "<group>"; };
 		B7F6F7471E852FF6005AF787 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F6F74A1E852FF6005AF787 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B7F6F7521E853100005AF787 /* IsUnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsUnique.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				B7D19FA71E8BAEEC00AE628C /* BFS.swift */,
 				B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */,
 				B7D19FAB1E8BCEA200AE628C /* BST.swift */,
+				B79B8A2E1E8D6FB6000AE107 /* MinimalTree.swift */,
+				B7DD87711E8E279C00179DA3 /* IsBST.swift */,
 			);
 			path = "Tree and Graph";
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */,
 				B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */,
 				B7F6F75C1E859F14005AF787 /* FindMatch.swift in Sources */,
+				B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */,
 				B7F6F7591E8561F2005AF787 /* OneAway.swift in Sources */,
 				B7870F1A1E86AAEA0089FC1F /* LinkList.swift in Sources */,
 				B7F6F7601E859F2E005AF787 /* SelectionSort.swift in Sources */,
@@ -320,6 +327,7 @@
 				B745FD301E87A4FE009E548A /* DetectIntersection.swift in Sources */,
 				B745FD271E87214B009E548A /* DeleteMiddleNode.swift in Sources */,
 				B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */,
+				B79B8A2F1E8D6FB6000AE107 /* MinimalTree.swift in Sources */,
 				B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */,
 				B7F6F7571E8543AE005AF787 /* URLifyString.swift in Sources */,
 				B7D19FA01E8AA15400AE628C /* Edge.swift in Sources */,

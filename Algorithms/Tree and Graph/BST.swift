@@ -19,6 +19,12 @@ public class BSTNode<T: Comparable> {
         self.data = data
     }
     
+    init(data: T, left: BSTNode<T>, right: BSTNode<T>) {
+        self.data = data
+        self.left = left
+        self.right = right
+    }
+    
 }
 
 
@@ -39,38 +45,29 @@ public class BST<T: Comparable> {
     }
     
     func inorder(node: BSTNode<T>?) {
-        let node: BSTNode<T>? = node
-        
-        if node == nil {
-            return
+        if let n = node {
+            inorder(node: n.left)
+            print(n.data)
+            inorder(node: n.right)
         }
-        inorder(node: node?.left)
-        print(node!.data)
-        inorder(node: node?.right)
     }
     
-    func preorder(node: BSTNode<T>) {
-        let node: BSTNode<T>? = node
+    func preorder(node: BSTNode<T>?) {
         
-        if node == nil {
-            return
+        if let n = node {
+            print(n.data)
+            preorder(node: n.left)
+            preorder(node: n.right)
         }
-        
-        print(node!.data)
-        preorder(node: (node?.left)!)
-        preorder(node: (node?.right)!)
     }
     
-    func postorder(node: BSTNode<T>) {
-        let node: BSTNode<T>? = node
+    func postorder(node: BSTNode<T>?) {
         
-        if node == nil {
-            return
+        if let n = node {
+            postorder(node: n.left)
+            postorder(node: n.right)
+            print(n.data)
         }
-    
-        postorder(node: (node?.left)!)
-        postorder(node: (node?.right)!)
-        print(node!.data)
     }
 }
 
@@ -90,7 +87,16 @@ func bstTest() {
         _ = bst.insert(root: bst.root, key: node)
     }
     
-    bst.inorder(node: bst.root)
+   bst.inorder(node: bst.root)
 }
 
+
+extension BSTNode: CustomStringConvertible {
+    public var description: String {
+        if let left = left, let right = right {
+            return "\(left.data)<--\(data)--->\(right.data)"
+        }
+        return "\(data)"
+    }
+}
 
