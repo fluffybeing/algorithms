@@ -9,7 +9,7 @@
 import Foundation
 
 
-func heightOfTree(root: BSTNode<Int>?) -> Int {
+public func heightOfTree(root: BSTNode<Int>?) -> Int {
     
     if let n = root {
         
