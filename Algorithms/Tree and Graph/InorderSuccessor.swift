@@ -24,21 +24,25 @@ func rightSuccessor(node: BSTNode<Int>) -> BSTNode<Int> {
 
 func inorderSuccessorUtil(root: BSTNode<Int>?, key: Int, parent: BSTNode<Int>?) -> BSTNode<Int>? {
     
-    if let r = root {
+    if let root = root {
         
-        if r.data == key {
-            if r.right != nil {
-                return rightSuccessor(node: r.right!)
+        if root.data == key {
+            if root.right != nil {
+                return rightSuccessor(node: root.right!)
             } else {
                 return parent
             }
         }
-        
-        let left = inorderSuccessorUtil(root: r.left, key: key, parent: r)
+    
+        let left = inorderSuccessorUtil(root: root.left, key: key, parent: root)
         if let l = left {
             return l
         }
-        return inorderSuccessorUtil(root: r.right, key: key, parent: parent)
+        
+        let right = inorderSuccessorUtil(root: root.right, key: key, parent: parent)
+        if let r = right {
+            return r
+        }
     }
    return nil
 }
@@ -61,6 +65,5 @@ func inorderSuccessorTest() {
     _ = bst.insert(root: bst.root?.left, key: BSTNode(data: 4))
     _ = bst.insert(root: bst.root, key: BSTNode(data: 1))
     
-    print(bst.inorder(node: bst.root))
     print(inorderSuccessor(root: bst.root, key: 4))
 }
