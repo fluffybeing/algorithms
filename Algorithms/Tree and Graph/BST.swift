@@ -93,9 +93,6 @@ func bstTest() {
 
 extension BSTNode: CustomStringConvertible {
     public var description: String {
-        if let left = left, let right = right {
-            return "\(left.data)<--\(data)--->\(right.data)"
-        }
         return "\(data)"
     }
 }
