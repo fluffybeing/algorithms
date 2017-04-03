@@ -26,6 +26,8 @@
 		B79B8A2F1E8D6FB6000AE107 /* MinimalTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79B8A2E1E8D6FB6000AE107 /* MinimalTree.swift */; };
 		B79C48701E914CBA001C9E4C /* InorderSuccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C486F1E914CBA001C9E4C /* InorderSuccessor.swift */; };
 		B79C48721E91633D001C9E4C /* CommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48711E91633D001C9E4C /* CommonAncestor.swift */; };
+		B79C48741E9223F0001C9E4C /* BSTSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48731E9223F0001C9E4C /* BSTSequence.swift */; };
+		B79C48761E92240D001C9E4C /* BuildOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48751E92240D001C9E4C /* BuildOrder.swift */; };
 		B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F981E8A7B7100AE628C /* Tree.swift */; };
 		B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9A1E8A9AC300AE628C /* Graph.swift */; };
 		B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9D1E8AA00200AE628C /* Vertex.swift */; };
@@ -84,6 +86,8 @@
 		B79B8A2E1E8D6FB6000AE107 /* MinimalTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalTree.swift; sourceTree = "<group>"; };
 		B79C486F1E914CBA001C9E4C /* InorderSuccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InorderSuccessor.swift; sourceTree = "<group>"; };
 		B79C48711E91633D001C9E4C /* CommonAncestor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAncestor.swift; sourceTree = "<group>"; };
+		B79C48731E9223F0001C9E4C /* BSTSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSTSequence.swift; sourceTree = "<group>"; };
+		B79C48751E92240D001C9E4C /* BuildOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildOrder.swift; sourceTree = "<group>"; };
 		B7D19F981E8A7B7100AE628C /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		B7D19F9A1E8A9AC300AE628C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		B7D19F9D1E8AA00200AE628C /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				B7DD87751E8F9C3100179DA3 /* IsBalanced.swift */,
 				B79C486F1E914CBA001C9E4C /* InorderSuccessor.swift */,
 				B79C48711E91633D001C9E4C /* CommonAncestor.swift */,
+				B79C48731E9223F0001C9E4C /* BSTSequence.swift */,
+				B79C48751E92240D001C9E4C /* BuildOrder.swift */,
 			);
 			path = "Tree and Graph";
 			sourceTree = "<group>";
@@ -325,6 +331,7 @@
 				B745FD321E87E4EA009E548A /* PalindromeLL.swift in Sources */,
 				B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */,
 				B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */,
+				B79C48741E9223F0001C9E4C /* BSTSequence.swift in Sources */,
 				B7F6F75C1E859F14005AF787 /* FindMatch.swift in Sources */,
 				B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */,
 				B7F6F7591E8561F2005AF787 /* OneAway.swift in Sources */,
@@ -352,6 +359,7 @@
 				B7F6F7661E859F8B005AF787 /* IntegerDivision.swift in Sources */,
 				B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */,
 				B7253BCF1E8930AC00514FCC /* ThreeStackArray.swift in Sources */,
+				B79C48761E92240D001C9E4C /* BuildOrder.swift in Sources */,
 				B745FD291E8724EC009E548A /* Partition.swift in Sources */,
 				B7870F181E869B200089FC1F /* Node.swift in Sources */,
 			);
