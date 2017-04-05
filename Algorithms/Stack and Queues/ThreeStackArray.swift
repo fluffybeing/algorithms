@@ -14,6 +14,6 @@ func threeStackArray(array: [String]) {
     let arrayPart = array.count / 3
     
     // Divide the array into three equal parts
-    let startIndex = (0, 1 * arrayPart, 2 * arrayPart)
-    var peek: (Int, Int, Int)
+    _ = (0, 1 * arrayPart, 2 * arrayPart)
+    var _: (Int, Int, Int)
 }
