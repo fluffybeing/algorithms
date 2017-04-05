@@ -8,4 +8,6 @@
 
 import Foundation
 
-unionFindUndirectedTest()
+// kruskalTest()
+
+kruskalTest()

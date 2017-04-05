@@ -35,6 +35,7 @@
 		B79C48811E93ADC8001C9E4C /* RobotInAGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48801E93ADC8001C9E4C /* RobotInAGrid.swift */; };
 		B79C48841E94C908001C9E4C /* ConnectedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48831E94C908001C9E4C /* ConnectedComponent.swift */; };
 		B79C48861E94CBDB001C9E4C /* UnionFindUndirected.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */; };
+		B79C48881E94DEC1001C9E4C /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48871E94DEC1001C9E4C /* Kruskal.swift */; };
 		B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F981E8A7B7100AE628C /* Tree.swift */; };
 		B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9A1E8A9AC300AE628C /* Graph.swift */; };
 		B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9D1E8AA00200AE628C /* Vertex.swift */; };
@@ -102,6 +103,7 @@
 		B79C48801E93ADC8001C9E4C /* RobotInAGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotInAGrid.swift; sourceTree = "<group>"; };
 		B79C48831E94C908001C9E4C /* ConnectedComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedComponent.swift; sourceTree = "<group>"; };
 		B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionFindUndirected.swift; sourceTree = "<group>"; };
+		B79C48871E94DEC1001C9E4C /* Kruskal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		B7D19F981E8A7B7100AE628C /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		B7D19F9A1E8A9AC300AE628C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		B7D19F9D1E8AA00200AE628C /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			children = (
 				B79C48831E94C908001C9E4C /* ConnectedComponent.swift */,
 				B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */,
+				B79C48871E94DEC1001C9E4C /* Kruskal.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				B7D19FA61E8B9A0C00AE628C /* DFS.swift in Sources */,
 				B79C487F1E937B93001C9E4C /* TripleStep.swift in Sources */,
 				B79C48861E94CBDB001C9E4C /* UnionFindUndirected.swift in Sources */,
+				B79C48881E94DEC1001C9E4C /* Kruskal.swift in Sources */,
 				B7D19FA41E8B7EF100AE628C /* AdjacencyList.swift in Sources */,
 				B7DD87741E8E6C9200179DA3 /* ListOfDepth.swift in Sources */,
 				B7F6F7661E859F8B005AF787 /* IntegerDivision.swift in Sources */,

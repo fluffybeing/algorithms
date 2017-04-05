@@ -10,53 +10,93 @@ import Foundation
 
 // Reference: https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/
 
-func union(set: inout [Int], a: Int, b: Int) {
-    let temp = set[a]
+// Approach 1
+// These can be used just to find connected components
+// I was not able to find the cycle
+struct UnionFindUndirected<T: Hashable>{
     
-    // We are looping here because
-    // we want to update the set. For example, if two nodes
-    // were already connected and then the thirds comes then we need 
-    // to update all three nodes to same set
-    for i in 0..<set.count {
-        if set[i] == temp {
-            set[i] = set[b]
+    private var set: Dictionary<T, T>
+    
+    init(graph: AdjancencyListGraph<T>) {
+        
+        // Intial set array refers
+        // 0 -> 0, 1 -> 1, it means all nodes
+        // are in different set
+        self.set = Dictionary<T, T>()
+        
+        
+        for edges in graph.adjacencyDict.values {
+            for edge in edges {
+                set[edge.source.data] = edge.source.data
+            }
+        }
+        
+        self.createSetsOfConnectedNodes(graph: graph)
+    }
+    
+    private mutating func createSetsOfConnectedNodes(graph: AdjancencyListGraph<T>) {
+        for edges in graph.adjacencyDict.values {
+            for edge in edges {
+                union(a: edge.source.data, b: edge.destination.data)
+            }
         }
     }
-}
-
-func find(set: inout [Int], a: Int, b: Int) -> Bool {
-    if set[a] == set[b] {
-        return true
-    }
-    return false
-}
-
-// detect cycle in undirected graph
-func unionFindUndirected(edges: [Edge<Int>], a: Int, b: Int, verticesCount: Int) -> Bool {
     
-    // Intial set array refers
-    // 0 -> 0, 1 -> 1, it means all nodes
-    // are in different set
-    var set = Array(0..<verticesCount)
-    
-    for edge in edges {
-        union(set: &set, a: edge.source.data, b: edge.destination.data)
+    public func isCycle(source: T, destination: T) -> Bool {
+        
+        return find(a: source, b: destination)
     }
     
-    return find(set: &set, a: a, b: b)
+    public func find(a: T, b: T) -> Bool {
+        if set[a] == set[b] {
+            return true
+        }
+        return false
+    }
+    
+    public mutating func union(a: T, b: T) {
+        let temp = set[a]
+        
+        // We are looping here because
+        // we want to update the set. For example, if two nodes
+        // were already connected and then the thirds comes then we need
+        // to update all three nodes to same set
+        for (key, _) in set {
+            if set[key] == temp {
+                set[key] = set[b]
+            }
+        }
+    }
 }
 
 
 func unionFindUndirectedTest() {
     
-    var edges = [Edge<Int>]()
+    let graph = AdjancencyListGraph<Int>()
     
-    edges.append(Edge(source: Vertex(data: 0), destination: Vertex(data: 1), weight: nil))
-    edges.append(Edge(source: Vertex(data: 2), destination: Vertex(data: 3), weight: nil))
-    edges.append(Edge(source: Vertex(data: 3), destination: Vertex(data: 4), weight: nil))
+    let zero = graph.createVertex(data: 0)
+    let one = graph.createVertex(data: 1)
+    let two = graph.createVertex(data: 2)
+    let three = graph.createVertex(data: 3)
+    let four = graph.createVertex(data: 4)
+    let seven = graph.createVertex(data: 7)
+    let eight = graph.createVertex(data: 8)
+    let nine = graph.createVertex(data: 9)
     
-    edges.append(Edge(source: Vertex(data: 7), destination: Vertex(data: 9), weight: nil))
-    edges.append(Edge(source: Vertex(data: 8), destination: Vertex(data: 9), weight: nil))
+    // Graph, three unconnected components
+    //        0 --- 1
+    //        2 --- 3 --- 4
+    //        7 --- 9 --- 8
     
-    print(unionFindUndirected(edges: edges, a: 4, b: 2, verticesCount: 10))
+    graph.add(.undirected, from: zero, to: one, weight: nil)
+    graph.add(.undirected, from: two, to: three, weight: nil)
+    graph.add(.undirected, from: three, to: four, weight: nil)
+    graph.add(.undirected, from: seven, to: nine, weight: nil)
+    graph.add(.undirected, from: eight, to: nine, weight: nil)
+
+    let a = UnionFindUndirected(graph: graph)
+    assert(a.isCycle(source: 3, destination: 7) == true)
 }
+
+// TODO optimized version of it
+// above implementation take O(N^2)
