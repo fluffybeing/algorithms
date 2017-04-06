@@ -36,6 +36,7 @@
 		B79C48841E94C908001C9E4C /* ConnectedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48831E94C908001C9E4C /* ConnectedComponent.swift */; };
 		B79C48861E94CBDB001C9E4C /* UnionFindUndirected.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */; };
 		B79C48881E94DEC1001C9E4C /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48871E94DEC1001C9E4C /* Kruskal.swift */; };
+		B79C48A01E961D3B001C9E4C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */; };
 		B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F981E8A7B7100AE628C /* Tree.swift */; };
 		B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9A1E8A9AC300AE628C /* Graph.swift */; };
 		B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9D1E8AA00200AE628C /* Vertex.swift */; };
@@ -46,6 +47,7 @@
 		B7D19FA81E8BAEEC00AE628C /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FA71E8BAEEC00AE628C /* BFS.swift */; };
 		B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */; };
 		B7D19FAC1E8BCEA200AE628C /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FAB1E8BCEA200AE628C /* BST.swift */; };
+		B7D7939B1E96441F00CB5853 /* Prims.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D7939A1E96441F00CB5853 /* Prims.swift */; };
 		B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87711E8E279C00179DA3 /* IsBST.swift */; };
 		B7DD87741E8E6C9200179DA3 /* ListOfDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */; };
 		B7DD87761E8F9C3100179DA3 /* IsBalanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87751E8F9C3100179DA3 /* IsBalanced.swift */; };
@@ -104,6 +106,7 @@
 		B79C48831E94C908001C9E4C /* ConnectedComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectedComponent.swift; sourceTree = "<group>"; };
 		B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionFindUndirected.swift; sourceTree = "<group>"; };
 		B79C48871E94DEC1001C9E4C /* Kruskal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
+		B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = "Algorithms/Tree and Graph/PriorityQueue.swift"; sourceTree = SOURCE_ROOT; };
 		B7D19F981E8A7B7100AE628C /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		B7D19F9A1E8A9AC300AE628C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		B7D19F9D1E8AA00200AE628C /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
@@ -114,6 +117,7 @@
 		B7D19FA71E8BAEEC00AE628C /* BFS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathBetweenVertex.swift; sourceTree = "<group>"; };
 		B7D19FAB1E8BCEA200AE628C /* BST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
+		B7D7939A1E96441F00CB5853 /* Prims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prims.swift; sourceTree = "<group>"; };
 		B7DD87711E8E279C00179DA3 /* IsBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBST.swift; sourceTree = "<group>"; };
 		B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfDepth.swift; sourceTree = "<group>"; };
 		B7DD87751E8F9C3100179DA3 /* IsBalanced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBalanced.swift; sourceTree = "<group>"; };
@@ -187,6 +191,7 @@
 				B79C48831E94C908001C9E4C /* ConnectedComponent.swift */,
 				B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */,
 				B79C48871E94DEC1001C9E4C /* Kruskal.swift */,
+				B7D7939A1E96441F00CB5853 /* Prims.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				B79C48751E92240D001C9E4C /* BuildOrder.swift */,
 				B79C48771E92C426001C9E4C /* CheckSubtree.swift */,
 				B79C48791E92D075001C9E4C /* RandomNumber.swift */,
+				B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */,
 			);
 			path = "Tree and Graph";
 			sourceTree = "<group>";
@@ -369,6 +375,7 @@
 				B79C487D1E937B77001C9E4C /* Fibonacci.swift in Sources */,
 				B7253BCB1E89033C00514FCC /* Stack.swift in Sources */,
 				B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */,
+				B7D7939B1E96441F00CB5853 /* Prims.swift in Sources */,
 				B7F6F74B1E852FF6005AF787 /* main.swift in Sources */,
 				B745FD321E87E4EA009E548A /* PalindromeLL.swift in Sources */,
 				B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */,
@@ -401,6 +408,7 @@
 				B79C487F1E937B93001C9E4C /* TripleStep.swift in Sources */,
 				B79C48861E94CBDB001C9E4C /* UnionFindUndirected.swift in Sources */,
 				B79C48881E94DEC1001C9E4C /* Kruskal.swift in Sources */,
+				B79C48A01E961D3B001C9E4C /* PriorityQueue.swift in Sources */,
 				B7D19FA41E8B7EF100AE628C /* AdjacencyList.swift in Sources */,
 				B7DD87741E8E6C9200179DA3 /* ListOfDepth.swift in Sources */,
 				B7F6F7661E859F8B005AF787 /* IntegerDivision.swift in Sources */,
