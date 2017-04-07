@@ -22,6 +22,7 @@ struct PriorityQueue<T:Comparable> {
     public mutating func insert(element: T) {
         container.append(element)
         
+        // Here better optimization can be done
         heapify()
     }
     
@@ -32,9 +33,12 @@ struct PriorityQueue<T:Comparable> {
     }
     
     // Get the min element
-    public mutating func extract() -> T {
-        let element = container.removeFirst()
+    public mutating func extract() -> T? {
         
+        if container.isEmpty {
+            return nil
+        }
+        let element = container.removeFirst()
         // order the element
         heapify()
         return element

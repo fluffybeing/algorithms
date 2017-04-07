@@ -8,6 +8,6 @@
 
 import Foundation
 
-priorityQueueTest()
+primsTest()
 
 
