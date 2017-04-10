@@ -101,5 +101,4 @@ func bellmonFordTest() {
     
     var bellmonFord = BellmonFord(graph: graph, source: zero)
     print(bellmonFord.printNodeWithWeights())
-
 }

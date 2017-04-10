@@ -38,6 +38,7 @@
 		B79C48861E94CBDB001C9E4C /* UnionFindUndirected.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */; };
 		B79C48881E94DEC1001C9E4C /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C48871E94DEC1001C9E4C /* Kruskal.swift */; };
 		B79C48A01E961D3B001C9E4C /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */; };
+		B7A0D54F1E9B6D66004D4DBA /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A0D54E1E9B6D66004D4DBA /* Dijkstra.swift */; };
 		B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F981E8A7B7100AE628C /* Tree.swift */; };
 		B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9A1E8A9AC300AE628C /* Graph.swift */; };
 		B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19F9D1E8AA00200AE628C /* Vertex.swift */; };
@@ -109,6 +110,7 @@
 		B79C48851E94CBDB001C9E4C /* UnionFindUndirected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionFindUndirected.swift; sourceTree = "<group>"; };
 		B79C48871E94DEC1001C9E4C /* Kruskal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = "Algorithms/Tree and Graph/PriorityQueue.swift"; sourceTree = SOURCE_ROOT; };
+		B7A0D54E1E9B6D66004D4DBA /* Dijkstra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
 		B7D19F981E8A7B7100AE628C /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		B7D19F9A1E8A9AC300AE628C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		B7D19F9D1E8AA00200AE628C /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				B79C48871E94DEC1001C9E4C /* Kruskal.swift */,
 				B7D7939A1E96441F00CB5853 /* Prims.swift */,
 				B75835521E9A11FF00D55E1A /* BellmanFord.swift */,
+				B7A0D54E1E9B6D66004D4DBA /* Dijkstra.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */,
 				B7253BD11E89422F00514FCC /* StackMin.swift in Sources */,
 				B79C48701E914CBA001C9E4C /* InorderSuccessor.swift in Sources */,
+				B7A0D54F1E9B6D66004D4DBA /* Dijkstra.swift in Sources */,
 				B745FD251E870B39009E548A /* ReturnKTHLast.swift in Sources */,
 				B745FD2D1E878888009E548A /* LoopDetection.swift in Sources */,
 				B7D19FA81E8BAEEC00AE628C /* BFS.swift in Sources */,
