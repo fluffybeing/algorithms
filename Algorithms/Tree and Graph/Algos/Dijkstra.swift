@@ -87,7 +87,7 @@ struct Dijkstra {
     
     func calculateWeight(node: GraphNode, edge: Edge<Int>) -> Double? {
         
-        // check the next node weight 
+        // check the next node weight
         let nextNodeWeight = pathWeight[edge.destination]
         let currentNodeWeight = node.weight + edge.weight!
         

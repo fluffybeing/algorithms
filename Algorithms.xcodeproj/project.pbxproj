@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */; };
+		B7246E171E9D13C500A756B1 /* FloyadWarshall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */; };
 		B7253BCB1E89033C00514FCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCA1E89033C00514FCC /* Stack.swift */; };
 		B7253BCD1E89034800514FCC /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCC1E89034800514FCC /* Queue.swift */; };
 		B7253BCF1E8930AC00514FCC /* ThreeStackArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCE1E8930AC00514FCC /* ThreeStackArray.swift */; };
@@ -80,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
+		B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloyadWarshall.swift; sourceTree = "<group>"; };
 		B7253BCA1E89033C00514FCC /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B7253BCC1E89034800514FCC /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		B7253BCE1E8930AC00514FCC /* ThreeStackArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeStackArray.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				B7D7939A1E96441F00CB5853 /* Prims.swift */,
 				B75835521E9A11FF00D55E1A /* BellmanFord.swift */,
 				B7A0D54E1E9B6D66004D4DBA /* Dijkstra.swift */,
+				B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				B79C48841E94C908001C9E4C /* ConnectedComponent.swift in Sources */,
 				B7253BCF1E8930AC00514FCC /* ThreeStackArray.swift in Sources */,
 				B79C48761E92240D001C9E4C /* BuildOrder.swift in Sources */,
+				B7246E171E9D13C500A756B1 /* FloyadWarshall.swift in Sources */,
 				B79C48811E93ADC8001C9E4C /* RobotInAGrid.swift in Sources */,
 				B745FD291E8724EC009E548A /* Partition.swift in Sources */,
 				B7870F181E869B200089FC1F /* Node.swift in Sources */,
