@@ -8,6 +8,9 @@
 
 import Foundation
 
+// Flood Fill Algorithm basically uses DFS and BFS with
+// preset condition on how to move in multidimensional area
+// Below Implementation show how to reach to a particular point
 struct FloodFill {
     let array: [[Int]]
     var visited: [[Bool]]

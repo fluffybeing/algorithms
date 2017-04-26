@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */; };
+		B72034C21EB062E00085DBC4 /* BackTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C11EB062E00085DBC4 /* BackTracking.swift */; };
 		B7246E171E9D13C500A756B1 /* FloyadWarshall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */; };
 		B7253BCB1E89033C00514FCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCA1E89033C00514FCC /* Stack.swift */; };
 		B7253BCD1E89034800514FCC /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCC1E89034800514FCC /* Queue.swift */; };
@@ -82,6 +83,7 @@
 
 /* Begin PBXFileReference section */
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
+		B72034C11EB062E00085DBC4 /* BackTracking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTracking.swift; sourceTree = "<group>"; };
 		B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloyadWarshall.swift; sourceTree = "<group>"; };
 		B7253BCA1E89033C00514FCC /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		B7253BCC1E89034800514FCC /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				B7A0D54E1E9B6D66004D4DBA /* Dijkstra.swift */,
 				B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */,
 				B77F0C3F1EADDDB700C558EF /* FloodFill.swift */,
+				B72034C11EB062E00085DBC4 /* BackTracking.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				B7253BCD1E89034800514FCC /* Queue.swift in Sources */,
 				B7870F141E86546B0089FC1F /* StringRotation.swift in Sources */,
 				B745FD2B1E873460009E548A /* SumLists.swift in Sources */,
+				B72034C21EB062E00085DBC4 /* BackTracking.swift in Sources */,
 				B745FD301E87A4FE009E548A /* DetectIntersection.swift in Sources */,
 				B745FD271E87214B009E548A /* DeleteMiddleNode.swift in Sources */,
 				B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */,
