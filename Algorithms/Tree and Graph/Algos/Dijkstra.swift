@@ -49,7 +49,7 @@ struct Dijkstra {
         }
     }
     
-    mutating func findShortedPath() {
+    mutating func findShortestPath() {
         
         // intialise infinity to all node
         self.initialiseToInfinity()
@@ -59,7 +59,7 @@ struct Dijkstra {
         pq.insert(element: GraphNode(vertex: source, weight: 0.0))
         
         // Now till priority queue doesn't get empty
-        // kep checking for minimum weight graph node
+        // keep checking for minimum weight graph node
         // like a greedy approcah
         while(!pq.isEmpty()) {
             let minWeightedNode = pq.extract()
@@ -99,7 +99,7 @@ struct Dijkstra {
     }
     
     mutating func printNodeWithWeights() -> String {
-        findShortedPath()
+        findShortestPath()
         return pathWeight.description
     }
 }

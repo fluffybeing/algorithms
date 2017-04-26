@@ -10,7 +10,6 @@ import Foundation
 
 
 // N Queen Problem
-
 struct NQueens {
     var solution: [[Int]]
     let queens: Int
@@ -76,7 +75,6 @@ struct NQueens {
         }
         
         // check lower left diagonal
-        
         i = row
         j = column
         while(i < queens && j >= 0) {
