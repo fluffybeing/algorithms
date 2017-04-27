@@ -54,6 +54,7 @@
 		B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */; };
 		B7D19FAC1E8BCEA200AE628C /* BST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D19FAB1E8BCEA200AE628C /* BST.swift */; };
 		B7D7939B1E96441F00CB5853 /* Prims.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D7939A1E96441F00CB5853 /* Prims.swift */; };
+		B7D85F1F1EB1BD46002FDAF9 /* HamiltonianPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D85F1E1EB1BD46002FDAF9 /* HamiltonianPath.swift */; };
 		B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87711E8E279C00179DA3 /* IsBST.swift */; };
 		B7DD87741E8E6C9200179DA3 /* ListOfDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */; };
 		B7DD87761E8F9C3100179DA3 /* IsBalanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87751E8F9C3100179DA3 /* IsBalanced.swift */; };
@@ -130,6 +131,7 @@
 		B7D19FA91E8BBA9C00AE628C /* PathBetweenVertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathBetweenVertex.swift; sourceTree = "<group>"; };
 		B7D19FAB1E8BCEA200AE628C /* BST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BST.swift; sourceTree = "<group>"; };
 		B7D7939A1E96441F00CB5853 /* Prims.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prims.swift; sourceTree = "<group>"; };
+		B7D85F1E1EB1BD46002FDAF9 /* HamiltonianPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamiltonianPath.swift; sourceTree = "<group>"; };
 		B7DD87711E8E279C00179DA3 /* IsBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBST.swift; sourceTree = "<group>"; };
 		B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfDepth.swift; sourceTree = "<group>"; };
 		B7DD87751E8F9C3100179DA3 /* IsBalanced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBalanced.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				B77F0C3F1EADDDB700C558EF /* FloodFill.swift */,
 				B72034C11EB062E00085DBC4 /* NQueens.swift */,
 				B72034C31EB087EC0085DBC4 /* KnightsTour.swift */,
+				B7D85F1E1EB1BD46002FDAF9 /* HamiltonianPath.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				B79C48811E93ADC8001C9E4C /* RobotInAGrid.swift in Sources */,
 				B745FD291E8724EC009E548A /* Partition.swift in Sources */,
 				B7870F181E869B200089FC1F /* Node.swift in Sources */,
+				B7D85F1F1EB1BD46002FDAF9 /* HamiltonianPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
