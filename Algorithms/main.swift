@@ -8,4 +8,4 @@
 
 import Foundation
 
-hamiltonianPathTest()
+topologicalSortingTest()

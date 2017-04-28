@@ -69,6 +69,7 @@
 		B7F6F7631E859F56005AF787 /* MatrixMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7621E859F56005AF787 /* MatrixMultiplication.swift */; };
 		B7F6F7661E859F8B005AF787 /* IntegerDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7651E859F8B005AF787 /* IntegerDivision.swift */; };
 		B7F6F77D1E85A470005AF787 /* StringCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F77C1E85A470005AF787 /* StringCompression.swift */; };
+		B7F7C19A1EB30C5100CC368D /* TopologicalSorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F7C1991EB30C5100CC368D /* TopologicalSorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -147,6 +148,7 @@
 		B7F6F7621E859F56005AF787 /* MatrixMultiplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixMultiplication.swift; sourceTree = "<group>"; };
 		B7F6F7651E859F8B005AF787 /* IntegerDivision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerDivision.swift; sourceTree = "<group>"; };
 		B7F6F77C1E85A470005AF787 /* StringCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
+		B7F7C1991EB30C5100CC368D /* TopologicalSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopologicalSorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 				B72034C11EB062E00085DBC4 /* NQueens.swift */,
 				B72034C31EB087EC0085DBC4 /* KnightsTour.swift */,
 				B7D85F1E1EB1BD46002FDAF9 /* HamiltonianPath.swift */,
+				B7F7C1991EB30C5100CC368D /* TopologicalSorting.swift */,
 			);
 			path = Algos;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */,
 				B7253BD11E89422F00514FCC /* StackMin.swift in Sources */,
 				B72034C41EB087EC0085DBC4 /* KnightsTour.swift in Sources */,
+				B7F7C19A1EB30C5100CC368D /* TopologicalSorting.swift in Sources */,
 				B79C48701E914CBA001C9E4C /* InorderSuccessor.swift in Sources */,
 				B7A0D54F1E9B6D66004D4DBA /* Dijkstra.swift in Sources */,
 				B745FD251E870B39009E548A /* ReturnKTHLast.swift in Sources */,
