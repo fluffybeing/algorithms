@@ -27,6 +27,11 @@ public class LinkList<T> {
         return tail
     }
     
+    convenience init(head: Node<T>?) {
+        self.init()
+        self.head = head
+    }
+    
     public func append(data: T) {
         
         let newNode = Node(data: data)
