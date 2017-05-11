@@ -10,6 +10,7 @@
 		B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */; };
 		B72034C21EB062E00085DBC4 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C11EB062E00085DBC4 /* NQueens.swift */; };
 		B72034C41EB087EC0085DBC4 /* KnightsTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C31EB087EC0085DBC4 /* KnightsTour.swift */; };
+		B722A2031EC443A900E94BF2 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722A2021EC443A900E94BF2 /* FizzBuzz.swift */; };
 		B7246E171E9D13C500A756B1 /* FloyadWarshall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */; };
 		B724B47F1EB791CE0023AEBE /* ReverseLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724B47E1EB791CE0023AEBE /* ReverseLinkList.swift */; };
 		B7253BCB1E89033C00514FCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCA1E89033C00514FCC /* Stack.swift */; };
@@ -89,6 +90,7 @@
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		B72034C11EB062E00085DBC4 /* NQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		B72034C31EB087EC0085DBC4 /* KnightsTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsTour.swift; sourceTree = "<group>"; };
+		B722A2021EC443A900E94BF2 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloyadWarshall.swift; sourceTree = "<group>"; };
 		B724B47E1EB791CE0023AEBE /* ReverseLinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkList.swift; sourceTree = "<group>"; };
 		B7253BCA1E89033C00514FCC /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -164,6 +166,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B722A2011EC442E500E94BF2 /* LetsBuildThatApp */ = {
+			isa = PBXGroup;
+			children = (
+				B722A2021EC443A900E94BF2 /* FizzBuzz.swift */,
+			);
+			path = LetsBuildThatApp;
+			sourceTree = "<group>";
+		};
 		B7253BC91E89026000514FCC /* Stacks and Queues */ = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +290,7 @@
 		B7F6F7491E852FF6005AF787 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				B722A2011EC442E500E94BF2 /* LetsBuildThatApp */,
 				B79C487B1E937B19001C9E4C /* Dynamic Programming */,
 				B7D19F971E8A7B4500AE628C /* Tree and Graph */,
 				B7253BC91E89026000514FCC /* Stacks and Queues */,
@@ -451,6 +462,7 @@
 				B7253BCF1E8930AC00514FCC /* ThreeStackArray.swift in Sources */,
 				B79C48761E92240D001C9E4C /* BuildOrder.swift in Sources */,
 				B7246E171E9D13C500A756B1 /* FloyadWarshall.swift in Sources */,
+				B722A2031EC443A900E94BF2 /* FizzBuzz.swift in Sources */,
 				B79C48811E93ADC8001C9E4C /* RobotInAGrid.swift in Sources */,
 				B745FD291E8724EC009E548A /* Partition.swift in Sources */,
 				B7870F181E869B200089FC1F /* Node.swift in Sources */,
