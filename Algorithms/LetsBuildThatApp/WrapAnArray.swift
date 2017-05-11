@@ -10,6 +10,9 @@ import Foundation
 
 func wrapAnArray(array: [Int], pivot: Int) -> [Int] {
     
+    
+    // array.prefix
+    // array.suffix
     if let pivotIndex = array.index(of: pivot) {
         let before = array[0..<pivotIndex]
         let after = array[pivotIndex..<array.count]
@@ -17,8 +20,8 @@ func wrapAnArray(array: [Int], pivot: Int) -> [Int] {
         return Array(after + before)
     }
     return []
+    
 }
-
 
 func wrapAnArrayTest() {
     let result = wrapAnArray(array: [1, 2, 3, 4, 5, 6], pivot: 5)
