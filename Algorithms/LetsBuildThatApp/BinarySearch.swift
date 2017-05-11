@@ -25,8 +25,7 @@ func binarySeachUtil(low: Int, high: Int, element: Int, array: [Int]) -> Bool  {
     let mid = (low + high) / 2
     let midValue = array[mid]
     
-    // I need to return everytime because unless the last call to 
-    // recursion will get printed
+    // I need to return recursion call value unless it will return false
     if midValue == element {
         return true
     } else if element < midValue {

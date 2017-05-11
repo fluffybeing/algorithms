@@ -12,6 +12,8 @@
 		B72034C41EB087EC0085DBC4 /* KnightsTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C31EB087EC0085DBC4 /* KnightsTour.swift */; };
 		B722A2031EC443A900E94BF2 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722A2021EC443A900E94BF2 /* FizzBuzz.swift */; };
 		B722A2051EC4464300E94BF2 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722A2041EC4464300E94BF2 /* BinarySearch.swift */; };
+		B722A2071EC4543E00E94BF2 /* Factorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722A2061EC4543E00E94BF2 /* Factorial.swift */; };
+		B722A2091EC456C100E94BF2 /* ReverseEveryWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722A2081EC456C100E94BF2 /* ReverseEveryWord.swift */; };
 		B7246E171E9D13C500A756B1 /* FloyadWarshall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */; };
 		B724B47F1EB791CE0023AEBE /* ReverseLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724B47E1EB791CE0023AEBE /* ReverseLinkList.swift */; };
 		B7253BCB1E89033C00514FCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCA1E89033C00514FCC /* Stack.swift */; };
@@ -93,6 +95,8 @@
 		B72034C31EB087EC0085DBC4 /* KnightsTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsTour.swift; sourceTree = "<group>"; };
 		B722A2021EC443A900E94BF2 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 		B722A2041EC4464300E94BF2 /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		B722A2061EC4543E00E94BF2 /* Factorial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factorial.swift; sourceTree = "<group>"; };
+		B722A2081EC456C100E94BF2 /* ReverseEveryWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseEveryWord.swift; sourceTree = "<group>"; };
 		B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloyadWarshall.swift; sourceTree = "<group>"; };
 		B724B47E1EB791CE0023AEBE /* ReverseLinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkList.swift; sourceTree = "<group>"; };
 		B7253BCA1E89033C00514FCC /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -173,6 +177,8 @@
 			children = (
 				B722A2021EC443A900E94BF2 /* FizzBuzz.swift */,
 				B722A2041EC4464300E94BF2 /* BinarySearch.swift */,
+				B722A2061EC4543E00E94BF2 /* Factorial.swift */,
+				B722A2081EC456C100E94BF2 /* ReverseEveryWord.swift */,
 			);
 			path = LetsBuildThatApp;
 			sourceTree = "<group>";
@@ -429,6 +435,7 @@
 				B7F6F75C1E859F14005AF787 /* FindMatch.swift in Sources */,
 				B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */,
 				B7F6F7591E8561F2005AF787 /* OneAway.swift in Sources */,
+				B722A2091EC456C100E94BF2 /* ReverseEveryWord.swift in Sources */,
 				B7870F1A1E86AAEA0089FC1F /* LinkList.swift in Sources */,
 				B7F6F7601E859F2E005AF787 /* SelectionSort.swift in Sources */,
 				B7F6F75E1E859F23005AF787 /* Insertion.swift in Sources */,
@@ -438,6 +445,7 @@
 				B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */,
 				B79C48781E92C426001C9E4C /* CheckSubtree.swift in Sources */,
 				B77F0C401EADDDB700C558EF /* FloodFill.swift in Sources */,
+				B722A2071EC4543E00E94BF2 /* Factorial.swift in Sources */,
 				B7253BCD1E89034800514FCC /* Queue.swift in Sources */,
 				B7870F141E86546B0089FC1F /* StringRotation.swift in Sources */,
 				B745FD2B1E873460009E548A /* SumLists.swift in Sources */,
