@@ -11,6 +11,7 @@ import Foundation
 func reverseEveryWord(sentence: String) -> String {
     var wordArray = sentence.components(separatedBy: " ")
     
+    // Todo user stride to avoid modulus
     for (index, word) in wordArray.enumerated() {
         if index % 2 == 1 {
             let reversedWord = String(word.characters.reversed())
