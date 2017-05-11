@@ -11,6 +11,7 @@
 		B72034C21EB062E00085DBC4 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C11EB062E00085DBC4 /* NQueens.swift */; };
 		B72034C41EB087EC0085DBC4 /* KnightsTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C31EB087EC0085DBC4 /* KnightsTour.swift */; };
 		B722A2031EC443A900E94BF2 /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722A2021EC443A900E94BF2 /* FizzBuzz.swift */; };
+		B722A2051EC4464300E94BF2 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722A2041EC4464300E94BF2 /* BinarySearch.swift */; };
 		B7246E171E9D13C500A756B1 /* FloyadWarshall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */; };
 		B724B47F1EB791CE0023AEBE /* ReverseLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B724B47E1EB791CE0023AEBE /* ReverseLinkList.swift */; };
 		B7253BCB1E89033C00514FCC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7253BCA1E89033C00514FCC /* Stack.swift */; };
@@ -91,6 +92,7 @@
 		B72034C11EB062E00085DBC4 /* NQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		B72034C31EB087EC0085DBC4 /* KnightsTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsTour.swift; sourceTree = "<group>"; };
 		B722A2021EC443A900E94BF2 /* FizzBuzz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
+		B722A2041EC4464300E94BF2 /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		B7246E161E9D13C500A756B1 /* FloyadWarshall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloyadWarshall.swift; sourceTree = "<group>"; };
 		B724B47E1EB791CE0023AEBE /* ReverseLinkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseLinkList.swift; sourceTree = "<group>"; };
 		B7253BCA1E89033C00514FCC /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				B722A2021EC443A900E94BF2 /* FizzBuzz.swift */,
+				B722A2041EC4464300E94BF2 /* BinarySearch.swift */,
 			);
 			path = LetsBuildThatApp;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				B79C487D1E937B77001C9E4C /* Fibonacci.swift in Sources */,
 				B7253BCB1E89033C00514FCC /* Stack.swift in Sources */,
 				B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */,
+				B722A2051EC4464300E94BF2 /* BinarySearch.swift in Sources */,
 				B7D7939B1E96441F00CB5853 /* Prims.swift in Sources */,
 				B7F6F74B1E852FF6005AF787 /* main.swift in Sources */,
 				B745FD321E87E4EA009E548A /* PalindromeLL.swift in Sources */,

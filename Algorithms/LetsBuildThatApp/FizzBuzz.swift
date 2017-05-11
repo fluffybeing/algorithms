@@ -10,20 +10,22 @@ import Foundation
 
 
 func fizzbuzz(numbers: Int) {
-    for number in 0..<numbers {
-        let threeDivisor = number % 3
-        let fiveDivisor = number % 5
+    for number in 1...numbers {
+        let threeDivisor = number % 3 == 0
+        let fiveDivisor = number % 5 == 0
         
-        if threeDivisor == 0 && fiveDivisor == 0 {
+        if threeDivisor && fiveDivisor {
             print("FizzBuzz")
-        } else if threeDivisor == 0 {
+        } else if threeDivisor {
             print("fizz")
-        } else if fiveDivisor == 0 {
+        } else if fiveDivisor {
             print("buzz")
+        } else {
+            print(number)
         }
     }
 }
 
 func fizzbuzzTest() {
-    fizzbuzz(numbers: 10)
+    fizzbuzz(numbers: 15)
 }
