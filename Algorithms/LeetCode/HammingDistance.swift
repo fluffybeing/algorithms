@@ -19,7 +19,7 @@ func hammingDistance(_ x: Int, _ y: Int) -> Int {
 func pad(string : String, toSize: Int = 64) -> String {
 	var padded = string
 	for _ in 0..<(toSize - string.characters.count) {
-		padded = "0" + padded
+		padded.insert("0", at: string.startIndex)
 	}
 	return padded
 }
