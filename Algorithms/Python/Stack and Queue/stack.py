@@ -34,3 +34,22 @@ class Stack:
 		if self.isEmpty():
 			return float("-inf")
 		return self.root.data
+		
+
+def sortInsert(s, elem):
+	
+	
+	if s.isEmpty() or s.peek < elem:
+		s.push(elem)
+	else:
+		temp = s.pop()
+		sortInsert(s, elem)
+		s.push(temp)
+		
+
+def sortStack(s):
+	if not s.isEmpty():
+		temp = s.pop()
+		sortStack(s)
+		sortInsert(s, temp)
+		
