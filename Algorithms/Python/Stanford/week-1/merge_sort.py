@@ -3,7 +3,6 @@
 
 
 class Sort:
-
 	def merge(self, left, right):
 		sorted_array = []
 
