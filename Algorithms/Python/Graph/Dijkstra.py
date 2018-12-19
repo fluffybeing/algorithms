@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 import heapq
@@ -12,7 +12,7 @@ def dijkstra(s, g):
 	while (q != []):
 		_, a = heapq.heappop(q)
 		
-		if v[a]: continue;
+		if v[a]: continue
 		v[a] = 1
 		
 		for (n, w) in g[a]:

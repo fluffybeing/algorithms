@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import Queue
 
@@ -15,7 +15,7 @@ def BFS(source, graph):
 	
 	while not q.empty():
 		t = q.get()
-		print t
+		print(t)
 
 		for n in graph[t]:
 			if v[n] == 0:
