@@ -20,8 +20,6 @@ class Vertex:
     def getWeight(self,nbr):
         return self.connectedTo[nbr]
 
-
-
 class Graph:
     def __init__(self):
         self.vertList = {}
