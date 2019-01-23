@@ -2,8 +2,8 @@
 
 
 def DFSUtil(s, g, v, p):
-	if v[s] == 1:
-		return
+	if v[s]: return
+	
 	v[s] = 1
 	p.append(s)
 	

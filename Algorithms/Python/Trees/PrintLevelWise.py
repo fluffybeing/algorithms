@@ -17,7 +17,7 @@ def printLevel(node, level):
 		return
 	
 	if level == 1:
-		print node.data
+		print(node.data)
 	else:
 		printLevel(node.left, level - 1)
 		printLevel(node.right, level - 1)
