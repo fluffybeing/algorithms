@@ -5,7 +5,7 @@ import sys
 # Check for directed graph
 def bellman(s, g):
 	# infinity weight
-	e = {k:sys.maxint for k in g.keys()}
+	e = {k:sys.maxsize for k in g.keys()}
 	e[s] = 0
 	
 	# n-1 times because a graph will have

@@ -2,15 +2,14 @@
 
 
 def dfs(s, g, v, b):
-	if v[s] == 1:
-		return
+	if v[s]: return
 	v[s] = 1
 
 	for n in g[s]:
 		if b[s] == b[n]:
 			return True
 	
-		if v[n] == 0 and b[n] == None:
+		if v[n] is 0 and b[n] is None:
 			b[n] = 'r' if b[s] == 'b' else 'b'
 			return dfs(n, g, v, b)
 
