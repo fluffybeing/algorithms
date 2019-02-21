@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 class Solution:
 	# @param A : tuple of list of integers
@@ -16,5 +16,5 @@ class Solution:
 
 test = Solution()
 r = test.spiralOrder(([1, 2], [2, 3], [3]))
-print r
+print(r)
 
