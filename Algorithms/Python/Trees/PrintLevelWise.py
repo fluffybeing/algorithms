@@ -10,7 +10,7 @@ def heightOfTree(root):
 	l = 1 + heightOfTree(root.left)
 	r = 1 + heightOfTree(root.right)
 	
-	return l if l > r else r
+	return max(l, r)
 
 def printLevel(node, level):
 	if node is None:
