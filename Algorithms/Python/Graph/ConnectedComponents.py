@@ -6,8 +6,8 @@ def isAlreadyVisited(n, cc):
 	for c in cc:
 		if n in c:
 			return True
-	else:
-		return False
+		else:
+			return False
 
 def connectedComponent(g):
 	nodes = g.keys()
