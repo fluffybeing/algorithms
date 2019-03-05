@@ -6,8 +6,6 @@ def countPermutation(string, size):
     for i in enumerate(string):
         for j in enumerate(string):
 
-            
-
 
 def main():
     countPermutation('123', 0)
