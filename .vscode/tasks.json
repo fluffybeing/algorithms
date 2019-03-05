@@ -5,7 +5,7 @@
     "tasks": [
         {
             "label": "Run File",
-            "command": "python ${file}",
+            "command": "python3 ${file}",
             "type": "shell",
             "group": {
                 "kind": "build",
