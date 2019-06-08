@@ -59,4 +59,3 @@ func isUniqueWithLoopTest() {
     assert(isUniqueWithLoop(input: "") == true)
 }
 
-

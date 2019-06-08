@@ -21,3 +21,5 @@ class Solution {
 
 // let s = Solution()
 // print(s.reverse(123))
+import Foundation
+
