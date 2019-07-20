@@ -11,9 +11,10 @@ import Foundation
 
 func binarySearch(array: [Int], elementToSearch: Int) -> Bool {
     
-    return binarySeachUtil(low: 0, high: array.count - 1,
-                           element: elementToSearch, array: array)
-    
+//    return binarySeachUtil(low: 0, high: array.count - 1,
+//                           element: elementToSearch, array: array)
+  return binarySearchLoop(low: 0, high: array.count - 1, element: elementToSearch, array: array)
+
 }
 
 func binarySeachUtil(low: Int, high: Int, element: Int, array: [Int]) -> Bool  {
@@ -33,6 +34,27 @@ func binarySeachUtil(low: Int, high: Int, element: Int, array: [Int]) -> Bool  {
     } else {
         return binarySeachUtil(low: mid + 1, high: high, element: element, array: array)
     }
+}
+
+func binarySearchLoop(low: Int, high: Int, element: Int, array: [Int]) -> Bool {
+  var low = low
+  var high = high
+
+  while low < high {
+    let mid = (low + high) / 2
+
+    if array[mid] == element {
+      return true
+    }
+
+    if element < array[mid] {
+      high = mid - 1
+    } else {
+      low = mid + 1
+    }
+  }
+
+  return false
 }
 
 func binarySearchTest() {

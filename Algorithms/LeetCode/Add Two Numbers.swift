@@ -28,7 +28,7 @@ public class ListNode {
         head.next = node
     }
 }
- 
+
 func sumWithCarry(_ a: Int, _ b: Int, _ carry: Int = 0) -> (Int, Int) {
     let sum = a + b + carry
     let carry = sum / 10

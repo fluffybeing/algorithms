@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67658BA422D44BA700DF304D /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67658BA322D44BA700DF304D /* MergeSort.swift */; };
 		B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */; };
 		B72034C21EB062E00085DBC4 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C11EB062E00085DBC4 /* NQueens.swift */; };
 		B72034C41EB087EC0085DBC4 /* KnightsTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C31EB087EC0085DBC4 /* KnightsTour.swift */; };
@@ -94,6 +95,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		67658BA322D44BA700DF304D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		B72034C11EB062E00085DBC4 /* NQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		B72034C31EB087EC0085DBC4 /* KnightsTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsTour.swift; sourceTree = "<group>"; };
@@ -344,6 +346,7 @@
 			children = (
 				B7F6F75F1E859F2E005AF787 /* SelectionSort.swift */,
 				B7F6F75D1E859F23005AF787 /* Insertion.swift */,
+				67658BA322D44BA700DF304D /* MergeSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				B7F6F74B1E852FF6005AF787 /* main.swift in Sources */,
 				B745FD321E87E4EA009E548A /* PalindromeLL.swift in Sources */,
 				B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */,
+				67658BA422D44BA700DF304D /* MergeSort.swift in Sources */,
 				B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */,
 				B79C48741E9223F0001C9E4C /* BSTSequence.swift in Sources */,
 				B7F6F75C1E859F14005AF787 /* FindMatch.swift in Sources */,
