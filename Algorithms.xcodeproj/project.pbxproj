@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		67658BA422D44BA700DF304D /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67658BA322D44BA700DF304D /* MergeSort.swift */; };
+		678877B922E9A67B0057646A /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678877B822E9A67B0057646A /* QuickSort.swift */; };
+		678877BB22E9AFCD0057646A /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */; };
+		67D1A23022EB60ED00862503 /* PossiblePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1A22F22EB60ED00862503 /* PossiblePaths.swift */; };
+		67D1A23222EB68EF00862503 /* PalindromicPartition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1A23122EB68EF00862503 /* PalindromicPartition.swift */; };
+		67D1A23422EB742200862503 /* NQueen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1A23322EB742200862503 /* NQueen.swift */; };
 		B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */; };
 		B72034C21EB062E00085DBC4 /* NQueens.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C11EB062E00085DBC4 /* NQueens.swift */; };
 		B72034C41EB087EC0085DBC4 /* KnightsTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72034C31EB087EC0085DBC4 /* KnightsTour.swift */; };
@@ -96,6 +101,11 @@
 
 /* Begin PBXFileReference section */
 		67658BA322D44BA700DF304D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
+		67D1A22F22EB60ED00862503 /* PossiblePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PossiblePaths.swift; sourceTree = "<group>"; };
+		67D1A23122EB68EF00862503 /* PalindromicPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicPartition.swift; sourceTree = "<group>"; };
+		67D1A23322EB742200862503 /* NQueen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueen.swift; sourceTree = "<group>"; };
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		B72034C11EB062E00085DBC4 /* NQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		B72034C31EB087EC0085DBC4 /* KnightsTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsTour.swift; sourceTree = "<group>"; };
@@ -182,6 +192,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D1A22E22EB60D900862503 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				67D1A22F22EB60ED00862503 /* PossiblePaths.swift */,
+				67D1A23122EB68EF00862503 /* PalindromicPartition.swift */,
+				67D1A23322EB742200862503 /* NQueen.swift */,
+			);
+			path = Recursion;
+			sourceTree = "<group>";
+		};
 		B722A2011EC442E500E94BF2 /* LetsBuildThatApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +253,7 @@
 				B79C487C1E937B77001C9E4C /* Fibonacci.swift */,
 				B79C487E1E937B93001C9E4C /* TripleStep.swift */,
 				B79C48801E93ADC8001C9E4C /* RobotInAGrid.swift */,
+				678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -313,6 +334,7 @@
 		B7F6F7491E852FF6005AF787 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				67D1A22E22EB60D900862503 /* Recursion */,
 				B722A2011EC442E500E94BF2 /* LetsBuildThatApp */,
 				B79C487B1E937B19001C9E4C /* Dynamic Programming */,
 				B7D19F971E8A7B4500AE628C /* Tree and Graph */,
@@ -347,6 +369,7 @@
 				B7F6F75F1E859F2E005AF787 /* SelectionSort.swift */,
 				B7F6F75D1E859F23005AF787 /* Insertion.swift */,
 				67658BA322D44BA700DF304D /* MergeSort.swift */,
+				678877B822E9A67B0057646A /* QuickSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -432,8 +455,10 @@
 				B7D19F9B1E8A9AC300AE628C /* Graph.swift in Sources */,
 				B7253BD11E89422F00514FCC /* StackMin.swift in Sources */,
 				B72034C41EB087EC0085DBC4 /* KnightsTour.swift in Sources */,
+				67D1A23422EB742200862503 /* NQueen.swift in Sources */,
 				B722A20F1EC4725900E94BF2 /* BinaryTreeSearch.swift in Sources */,
 				B7F7C19A1EB30C5100CC368D /* TopologicalSorting.swift in Sources */,
+				678877BB22E9AFCD0057646A /* LongestCommonSubsequence.swift in Sources */,
 				B79C48701E914CBA001C9E4C /* InorderSuccessor.swift in Sources */,
 				B7A0D54F1E9B6D66004D4DBA /* Dijkstra.swift in Sources */,
 				B745FD251E870B39009E548A /* ReturnKTHLast.swift in Sources */,
@@ -446,6 +471,7 @@
 				B7D7939B1E96441F00CB5853 /* Prims.swift in Sources */,
 				B7F6F74B1E852FF6005AF787 /* main.swift in Sources */,
 				B745FD321E87E4EA009E548A /* PalindromeLL.swift in Sources */,
+				67D1A23222EB68EF00862503 /* PalindromicPartition.swift in Sources */,
 				B7D19FAA1E8BBA9C00AE628C /* PathBetweenVertex.swift in Sources */,
 				67658BA422D44BA700DF304D /* MergeSort.swift in Sources */,
 				B7870F121E8640750089FC1F /* MatrixRotation.swift in Sources */,
@@ -473,6 +499,7 @@
 				B7D19F991E8A7B7100AE628C /* Tree.swift in Sources */,
 				B722A20B1EC466A300E94BF2 /* WrapAnArray.swift in Sources */,
 				B79B8A2F1E8D6FB6000AE107 /* MinimalTree.swift in Sources */,
+				67D1A23022EB60ED00862503 /* PossiblePaths.swift in Sources */,
 				B79C48721E91633D001C9E4C /* CommonAncestor.swift in Sources */,
 				B79C487A1E92D075001C9E4C /* RandomNumber.swift in Sources */,
 				B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */,
@@ -490,6 +517,7 @@
 				B7F6F7661E859F8B005AF787 /* IntegerDivision.swift in Sources */,
 				B724B47F1EB791CE0023AEBE /* ReverseLinkList.swift in Sources */,
 				B70314341E86FF4500514ED5 /* RemoveDuplicates.swift in Sources */,
+				678877B922E9A67B0057646A /* QuickSort.swift in Sources */,
 				B722A2111EC4859200E94BF2 /* AbstractSyntaxTree.swift in Sources */,
 				B79C48841E94C908001C9E4C /* ConnectedComponent.swift in Sources */,
 				B7253BCF1E8930AC00514FCC /* ThreeStackArray.swift in Sources */,

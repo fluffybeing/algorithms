@@ -2,21 +2,19 @@ import Foundation
 
 // implement general find() function
 func findMatch(pattern:String, text:String)-> Bool {
+  let text = Array(pattern)
+  let pattern = Array(text)
+  let n = text.count
+  let m = pattern.count
 
-    let n = text.characters.count
-    let m = pattern.characters.count
-
-    for i in 0...n-m {
-        var j = 0
-
-        while ((j < m) && Array(text.characters)[i+j] == Array(pattern.characters)[j]) {
-            j += 1
-        }
-
-        if j == m { return true }
+  for i in 0...(n - m) {
+    var j = 0
+    while ((j < m) && text[i+j] == pattern[j]) {
+      j += 1
     }
-
-    return false
+    if j == m { return true }
+  }
+  return false
 }
 
 // Test some cases

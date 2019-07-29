@@ -14,4 +14,12 @@ import Foundation
 // MARK: Sorting
 //insertionSortTest()
 //selectionSortTest()
-mergeSortTest()
+//mergeSortTest()
+
+// quickSortTest()
+// testPossiblePaths()
+
+//testNQueen()
+//nqueensTest()
+
+findMatchTest() 
