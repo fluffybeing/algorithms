@@ -22,7 +22,8 @@ func findPossiblePaths(m: Int, n: Int, final: Int) -> Int {
     return 0
   }
 
-  return findPossiblePaths(m: m + 1, n: n, final: final) + findPossiblePaths(m: m, n: n+1, final: final)
+  return findPossiblePaths(m: m + 1, n: n, final: final)
+    + findPossiblePaths(m: m, n: n+1, final: final)
 }
 
 func testPossiblePaths() {

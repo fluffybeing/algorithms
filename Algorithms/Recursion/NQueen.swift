@@ -11,15 +11,18 @@ import Foundation
 fileprivate let N = 8
 
 func nQueen(queen: Int) {
-  var board = [[Character]](repeating: [Character](repeating:  "-", count: N), count: N)
+  let board = [[Character]](repeating: [Character](repeating:  "-", count: N), count: N)
 
-  nQueenBackTrack(mat: &board, queen: 0)
-  print(board)
+  nQueenBackTrack(mat: board, queen: 0)
 }
 
-func nQueenBackTrack(mat: inout [[Character]], queen: Int) {
-
+func nQueenBackTrack(mat: [[Character]], queen: Int) {
+  var mat = mat
   if queen == N {
+    for row in mat {
+      print(row)
+    }
+    print()
     return
   }
 
@@ -27,7 +30,7 @@ func nQueenBackTrack(mat: inout [[Character]], queen: Int) {
   for i in 0..<N {
     if isSafe(mat: mat, r: queen, c: i) {
       mat[queen][i] = "Q"
-      nQueenBackTrack(mat: &mat, queen: queen+1)
+      nQueenBackTrack(mat: mat, queen: queen + 1)
 
       // This is the step which makes backtracking possible
       // if the above recur was not sucessful, we will remove the queen
@@ -38,21 +41,26 @@ func nQueenBackTrack(mat: inout [[Character]], queen: Int) {
 
 func isSafe(mat: [[Character]], r: Int, c: Int) -> Bool {
 
-  // check for the diagonal
-  let rRow = stride(from: r, to: 0, by: -1)
-  let rCol = stride(from: c, to: N - 1, by: 1)
-  for (i , j) in zip(rRow, rCol) {
-    if mat[i][j] == "Q" {
+  // check for the upper diagonal
+  var rRow = r
+  var rCol = c
+  while rRow >= 0 && rCol < N {
+    if mat[rRow][rCol] == "Q" {
       return false
     }
+    rRow -= 1
+    rCol += 1
   }
-
-  let lRow = stride(from: r, to: N - 1, by: 1)
-  let lCol = stride(from: c, to: 0, by: -1)
-  for (i , j) in zip(lRow, lCol) {
-    if mat[i][j] == "Q" {
+  
+  // Lower diagonal
+  var lRow = r
+  var lCol = c
+  while lRow < N && lCol < N {
+    if mat[lRow][lCol] == "Q" {
       return false
     }
+    lCol += 1
+    lRow += 1
   }
 
   // check for the column

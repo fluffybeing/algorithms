@@ -19,7 +19,7 @@ import Foundation
 // quickSortTest()
 // testPossiblePaths()
 
-//testNQueen()
+testNQueen()
 //nqueensTest()
 
-findMatchTest() 
+//findMatchTest()

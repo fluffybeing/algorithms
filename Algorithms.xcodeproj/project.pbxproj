@@ -180,6 +180,7 @@
 		B7F6F77C1E85A470005AF787 /* StringCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
 		B7F7C1991EB30C5100CC368D /* TopologicalSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopologicalSorting.swift; sourceTree = "<group>"; };
 		C01F245322E2B95800267843 /* MininumSwaps.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MininumSwaps.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C0FD2A9D22EFDDE6002AAB8D /* PrintAllKeyBoardCombo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrintAllKeyBoardCombo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +398,7 @@
 			isa = PBXGroup;
 			children = (
 				C01F245322E2B95800267843 /* MininumSwaps.playground */,
+				C0FD2A9D22EFDDE6002AAB8D /* PrintAllKeyBoardCombo.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
