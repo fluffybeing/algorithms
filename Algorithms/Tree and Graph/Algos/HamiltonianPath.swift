@@ -38,7 +38,7 @@ struct HamiltonianPath {
     
     mutating func swapElementAtIndex(a: Int, b: Int) {
         if a != b {
-            swap(&vertices[a], &vertices[b])
+            vertices.swapAt(a, b)
         }
     }
     

@@ -72,7 +72,7 @@ struct PriorityQueue<T:Comparable> {
         
         // Now check if smallest number is equal to root
         if smallest != index {
-            swap(&container[index], &container[smallest])
+            container.swapAt(index, smallest)
             min_heapify(index: smallest)
         }
         
