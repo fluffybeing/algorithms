@@ -179,6 +179,7 @@
 		B7F6F7651E859F8B005AF787 /* IntegerDivision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerDivision.swift; sourceTree = "<group>"; };
 		B7F6F77C1E85A470005AF787 /* StringCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
 		B7F7C1991EB30C5100CC368D /* TopologicalSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopologicalSorting.swift; sourceTree = "<group>"; };
+		C01F245322E2B95800267843 /* MininumSwaps.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MininumSwaps.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +336,7 @@
 			isa = PBXGroup;
 			children = (
 				67D1A22E22EB60D900862503 /* Recursion */,
+				C0C43E4322E2B89D00C20028 /* Playgrounds */,
 				B722A2011EC442E500E94BF2 /* LetsBuildThatApp */,
 				B79C487B1E937B19001C9E4C /* Dynamic Programming */,
 				B7D19F971E8A7B4500AE628C /* Tree and Graph */,
@@ -389,6 +391,14 @@
 				B7F6F7651E859F8B005AF787 /* IntegerDivision.swift */,
 			);
 			path = Maths;
+			sourceTree = "<group>";
+		};
+		C0C43E4322E2B89D00C20028 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				C01F245322E2B95800267843 /* MininumSwaps.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
