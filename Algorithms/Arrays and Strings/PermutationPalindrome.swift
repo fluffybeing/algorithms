@@ -16,7 +16,7 @@ func isPermutationPalindrome(input: String) -> Bool {
     
     var hashMap = [Character: Int]()
     
-    for character in input.characters {
+    for character in input {
         if hashMap[character] != nil {
             hashMap[character]! += 1
         } else {

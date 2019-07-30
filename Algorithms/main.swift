@@ -23,3 +23,4 @@ testNQueen()
 //nqueensTest()
 
 //findMatchTest()
+isUniqueWithLoopTest()

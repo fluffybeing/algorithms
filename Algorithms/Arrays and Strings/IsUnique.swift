@@ -17,7 +17,7 @@ func isUniqueWithHashMap(input: String) -> Bool {
     
     var hashMap = [Character: Int]()
     
-    for character in input.characters {
+    for character in input {
         if hashMap[character] != nil {
             return false
         } else {
@@ -38,24 +38,21 @@ func isUniqueWithHashMapTest() {
 // Without additional DataStructure
 // O(N^2)
 func isUniqueWithLoop(input: String) -> Bool {
-    for i in input.characters {
-        // Swift doesn't allow int accessor over string type
-        var count = 0
-        for j in input.characters {
-            if i == j {
-                count += 1
-            }
-        }
-        if count > 1 {
-            return false
-        }
+  for (i, char) in input.enumerated() {
+    var j = i + 1
+    while j < input.count {
+      if Array(input)[j...].contains(char) {
+        return false
+      }
+      j += 1
     }
-    return true
+  }
+  return true
 }
 
 func isUniqueWithLoopTest() {
-    assert(isUniqueWithLoop(input: "Hello") == false)
-    assert(isUniqueWithLoop(input: "Rahul") == true)
-    assert(isUniqueWithLoop(input: "") == true)
+  assert(isUniqueWithLoop(input: "Hello") == false)
+  assert(isUniqueWithLoop(input: "Rahul") == true)
+  assert(isUniqueWithLoop(input: "") == true)
 }
 
