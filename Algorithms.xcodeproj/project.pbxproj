@@ -100,7 +100,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		672E626C22F0088F00D8F1A3 /* Permute.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Permute.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67658BA322D44BA700DF304D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		677E758822F0053500B1A285 /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
 		67D1A22F22EB60ED00862503 /* PossiblePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PossiblePaths.swift; sourceTree = "<group>"; };
@@ -399,6 +401,8 @@
 			children = (
 				C01F245322E2B95800267843 /* MininumSwaps.playground */,
 				C0FD2A9D22EFDDE6002AAB8D /* PrintAllKeyBoardCombo.playground */,
+				677E758822F0053500B1A285 /* Subsets.playground */,
+				672E626C22F0088F00D8F1A3 /* Permute.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";

@@ -19,8 +19,32 @@ import Foundation
 // quickSortTest()
 // testPossiblePaths()
 
-testNQueen()
+//testNQueen()
 //nqueensTest()
 
 //findMatchTest()
-isUniqueWithLoopTest()
+//isUniqueWithLoopTest()
+
+//struct Empty: Decodable {}
+//
+//let d = "Cafe".data(using: .utf8)!
+//
+//let data = try! JSONDecoder().decode(Empty.self, from: d)
+//
+//print(data)
+
+enum Check {
+	case simple
+	case associated(Int)
+}
+
+let a = Check.associated(5)
+
+let b = Check.associated(6)
+
+switch b {
+	case .associated:
+		print("Hello")
+	default:
+		print("Not")
+}
