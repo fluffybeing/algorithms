@@ -105,6 +105,7 @@
 		677E758822F0053500B1A285 /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
+		67B9F8BA2306495B00010C02 /* SingleLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingleLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67D1A22F22EB60ED00862503 /* PossiblePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PossiblePaths.swift; sourceTree = "<group>"; };
 		67D1A23122EB68EF00862503 /* PalindromicPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicPartition.swift; sourceTree = "<group>"; };
 		67D1A23322EB742200862503 /* NQueen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueen.swift; sourceTree = "<group>"; };
@@ -247,6 +248,7 @@
 				B745FD2F1E87A4FE009E548A /* DetectIntersection.swift */,
 				B745FD311E87E4EA009E548A /* PalindromeLL.swift */,
 				B724B47E1EB791CE0023AEBE /* ReverseLinkList.swift */,
+				67B9F8BA2306495B00010C02 /* SingleLinkedList.playground */,
 			);
 			path = Linklist;
 			sourceTree = "<group>";

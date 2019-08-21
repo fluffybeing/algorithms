@@ -9,47 +9,48 @@
 import Foundation
 
 
-func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String>) -> [Vertex<String>]? {
+func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String>) -> [Vertex<String>] {
     
-    var stack = Stack<Vertex<String>>()
-    var visited = { () -> [Vertex<String> : Bool] in
-        var visited: [Vertex<String>: Bool] = [:]
-        
-        for (key, _) in graph.adjacencyDict {
-            visited[key] = false
-        }
-        return visited
-    }()
-
-    var path: [Vertex<String>]? = []
-    
-    stack.push(source)
-    visited[source] = true
-    
-    while !stack.isEmpty {
-        let topElement = stack.pop()
-        path?.append(topElement!)
-
-        
-        guard let neigbhours = graph.edges(from: topElement!) else {
-            return path
-        }
-        
-        for neigbhour in neigbhours {
-            let destinationVertex = neigbhour.destination
-            if visited[destinationVertex] == false {
-                stack.push(destinationVertex)
-                visited[destinationVertex] = true
-            }
-        }
+  var stack = Stack<Vertex<String>>()
+  // Created Visited Dictionary
+  var visited = { () -> [Vertex<String> : Bool] in
+    var visited: [Vertex<String>: Bool] = [:]
+    graph.adjacencyDict.keys.forEach {
+      visited[$0] = false
     }
-    return path
+    return visited
+  }()
+
+  var path: [Vertex<String>] = []
+
+  // Add the first node and mark it visited
+  stack.push(source)
+  visited[source] = true
+    
+  while !stack.isEmpty {
+    // remove the recently added element and add it to the path
+    let topElement = stack.pop()
+    path.append(topElement!)
+
+    // get the neighbours
+    guard let neigbhours = graph.edges(from: topElement!) else {
+      return path
+    }
+
+    for neigbhour in neigbhours {
+      let destinationVertex = neigbhour.destination
+      if visited[destinationVertex] == false {
+        stack.push(destinationVertex)
+        visited[destinationVertex] = true
+      }
+    }
+  }
+  return path
 }
 
 func depthFirstSearchTest() {
-    
-    let (graph, source) = initialiseAdjacencyListGraph()
-    let path = depthFirstSearch(graph: graph, source: source)
-    
-    print(path!)
+  let (graph, source) = initialiseAdjacencyListGraph()
+  let path = depthFirstSearch(graph: graph, source: source)
+
+  print(path)
 }

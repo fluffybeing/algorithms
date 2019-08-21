@@ -9,23 +9,19 @@
 import Foundation
 
 public enum EdgeType {
-    case directed, undirected
+  case directed, undirected
 }
 
 public struct Edge<T: Hashable> {
-    public var source: Vertex<T>
-    public var destination: Vertex<T>
-    public var weight: Double?
+  public var source: Vertex<T>
+  public var destination: Vertex<T>
+  public var weight: Double?
 }
 
 extension Edge: Hashable {
-    public var hashValue: Int {
-        return "\(source)\(destination)\(String(describing: weight))".hashValue
-    }
-    
-    static public func ==(lhs: Edge<T>, rhs: Edge<T>) -> Bool {
-        return lhs.source == rhs.source &&
-            lhs.destination == rhs.destination &&
-            lhs.weight == rhs.weight
-    }
+  static public func ==(lhs: Edge<T>, rhs: Edge<T>) -> Bool {
+    return lhs.source == rhs.source &&
+      lhs.destination == rhs.destination &&
+      lhs.weight == rhs.weight
+  }
 }
