@@ -110,6 +110,7 @@
 		67D1A23122EB68EF00862503 /* PalindromicPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicPartition.swift; sourceTree = "<group>"; };
 		67D1A23322EB742200862503 /* NQueen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueen.swift; sourceTree = "<group>"; };
 		67E1C316230E35ED00D1AB8B /* LevelOrder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LevelOrder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67E1C317230E410400D1AB8B /* LeavesCompare.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeavesCompare.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		B72034C11EB062E00085DBC4 /* NQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		B72034C31EB087EC0085DBC4 /* KnightsTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsTour.swift; sourceTree = "<group>"; };
@@ -306,6 +307,7 @@
 				B79C48791E92D075001C9E4C /* RandomNumber.swift */,
 				B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */,
 				67E1C316230E35ED00D1AB8B /* LevelOrder.playground */,
+				67E1C317230E410400D1AB8B /* LeavesCompare.playground */,
 			);
 			path = "Tree and Graph";
 			sourceTree = "<group>";
