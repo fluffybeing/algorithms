@@ -18,12 +18,6 @@ func permute(array: [Int], start: Int, end: Int) {
 //let array = [1, 2, 3]
 //permute(array: array, start: 0, end: 2)
 
-
-
-//            1, 2, 3    0 , 2
-//     1
-//[2, 1, 3]
-
 func permuteWirth<T>(_ a: [T], _ n: Int) {
   if n == 0 {
     print(a)   // display the current permutation

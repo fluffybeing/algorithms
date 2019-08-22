@@ -18,4 +18,5 @@ import Foundation
 //levelOrderTest()
 //isBalancedTest()
 //inorderSuccessorTest()
-commonAncestorTest()
+//commonAncestorTest()
+priorityQueueTest()
