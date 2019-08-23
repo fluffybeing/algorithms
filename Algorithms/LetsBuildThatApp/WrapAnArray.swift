@@ -13,7 +13,7 @@ func wrapAnArray(array: [Int], pivot: Int) -> [Int] {
     
     // array.prefix
     // array.suffix
-    if let pivotIndex = array.index(of: pivot) {
+    if let pivotIndex = array.firstIndex(of: pivot) {
         let before = array[0..<pivotIndex]
         let after = array[pivotIndex..<array.count]
     

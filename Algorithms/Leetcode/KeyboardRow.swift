@@ -9,17 +9,17 @@ func isWordInKeyboardRow(_ word: String) -> Bool {
 	var countTop = 0
 	var countMiddle = 0
 	var countLower = 0
-	for char in word.lowercased().characters {
-		if topLetters.characters.contains(char) {
+	for char in word.lowercased() {
+		if topLetters.contains(char) {
 			countTop += 1
-		} else if middleLetters.characters.contains(char) {
+		} else if middleLetters.contains(char) {
 			countMiddle += 1
-		} else if lowerLetters.characters.contains(char) {
+		} else if lowerLetters.contains(char) {
 			countLower += 1
 		}	
 	}
 	
-	let wordCount = word.characters.count
+	let wordCount = word.count
 	if (countTop == wordCount) || (countMiddle == wordCount) || (countLower == wordCount) {
 		return true
 	}
@@ -40,5 +40,7 @@ func findWords(_ words: [String]) -> [String] {
 	return wordInRow
 }
 
-let result = findWords(["Hello", "Alaska", "Dad", "Peace"])
-print(result) 
+func testKeyboardRow() {
+  let result = findWords(["Hello", "Alaska", "Dad", "Peace"])
+  print(result)
+}

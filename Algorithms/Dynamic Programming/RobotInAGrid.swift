@@ -69,12 +69,7 @@ func getPath(maze: [[Bool]], row: Int, col: Int, path: [Point], failedPoints: Se
     return false
 }
 
-
 extension Point: Hashable {
-    public var hashValue: Int {
-        return "\(row)\(col)".hashValue
-    }
-    
     static public func ==(lhs: Point, rhs: Point) -> Bool {
         return lhs.row == rhs.row && lhs.col == rhs.col
     }

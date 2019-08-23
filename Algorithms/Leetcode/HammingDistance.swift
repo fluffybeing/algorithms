@@ -8,7 +8,7 @@ func hammingDistance(_ x: Int, _ y: Int) -> Int {
   let yPaded = pad(string: yBinaryString)
 
   var hammingDistanceCount = 0
-  for index in xPaded.characters.indices {
+  for index in xPaded.indices {
           if xPaded[index] != yPaded[index] {
                   hammingDistanceCount += 1
           }
@@ -18,11 +18,13 @@ func hammingDistance(_ x: Int, _ y: Int) -> Int {
 
 func pad(string : String, toSize: Int = 64) -> String {
   var padded = string
-  for _ in 0..<(toSize - string.characters.count) {
+  for _ in 0..<(toSize - string.count) {
           padded.insert("0", at: string.startIndex)
   }
   return padded
 }
 
-let result = hammingDistance(1577962638, 1727613287)
-print(result)
+func testHammingDistance() {
+  let result = hammingDistance(1577962638, 1727613287)
+  print(result)
+}

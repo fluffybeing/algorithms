@@ -20,3 +20,4 @@ import Foundation
 //inorderSuccessorTest()
 //commonAncestorTest()
 priorityQueueTest()
+

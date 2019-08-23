@@ -12,24 +12,24 @@ import Foundation
 // O(N)
 func stringRotation(firstString: String, secondString: String) -> Bool {
     
-    if firstString.characters.count != secondString.characters.count {
-        return false
-    } else {
-        for indexF in firstString.characters.indices {
-            if firstString[indexF] == secondString.characters.first! {
-                // Separate string into two subsets
-                let x = firstString.substring(to: indexF)
-                let y = firstString.substring(from: indexF)
-                
-                // append the subset in reverse
-                let reverseString = y + x
-                
-                if reverseString == secondString {
-                    return true
-                }
-            }
+  if firstString.count != secondString.count {
+    return false
+  } else {
+    for indexF in firstString.indices {
+      if firstString[indexF] == secondString.first! {
+        // Separate string into two subsets
+        let x = firstString[..<indexF]
+        let y = firstString[indexF...]
+
+        // append the subset in reverse
+        let reverseString = y + x
+
+        if reverseString == secondString {
+          return true
         }
+      }
     }
+  }
     return false
 }
 

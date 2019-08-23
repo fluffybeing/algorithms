@@ -22,5 +22,7 @@ func matrixReshape(_ nums: [[Int]], _ r: Int, _ c: Int) -> [[Int]] {
 	return nums
 }
 
-let result = matrixReshape([[1, 2], [3, 4]], 2, 2)
-print(result)
+func testMatrixReshape() {
+  let result = matrixReshape([[1, 2], [3, 4]], 2, 2)
+  print(result)
+}

@@ -26,6 +26,8 @@ func findUnsortedSubarray(_ nums: [Int]) -> Int {
 	return (range.1 - range.0) + 1	
 }
 
-let result = findUnsortedSubarray([1,2,4,5,3])
-//[1,2,3,3,3]
-print(result)
+func testfindUnsortedSubarray() {
+  let result = findUnsortedSubarray([1,2,4,5,3])
+  //[1,2,3,3,3]
+  print(result)
+}

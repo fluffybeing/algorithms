@@ -60,18 +60,20 @@ func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
     return head
 }
 
-// Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
-// Output: 7 -> 0 -> 8
-// Explanation: 342 + 465 = 807.
+func testAddTwoNumbers() {
+  // Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+  // Output: 7 -> 0 -> 8
+  // Explanation: 342 + 465 = 807.
 
-let nodeOne = ListNode(2)
-let nodeTwo = ListNode(5)
+  let nodeOne = ListNode(2)
+  let nodeTwo = ListNode(5)
 
-nodeOne.add(ListNode(4))
-nodeTwo.add(ListNode(6))
-nodeOne.add(ListNode(3))
-nodeTwo.add(ListNode(8))
-nodeTwo.add(ListNode(9))
+  nodeOne.add(ListNode(4))
+  nodeTwo.add(ListNode(6))
+  nodeOne.add(ListNode(3))
+  nodeTwo.add(ListNode(8))
+  nodeTwo.add(ListNode(9))
 
-let result = addTwoNumbers(nodeOne, nodeTwo)
-result!.description()
+  let result = addTwoNumbers(nodeOne, nodeTwo)
+  result!.description()
+}

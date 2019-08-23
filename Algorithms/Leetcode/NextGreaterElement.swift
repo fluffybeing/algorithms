@@ -6,12 +6,12 @@ func nextGreaterElement(_ findNums: [Int], _ nums: [Int]) -> [Int] {
 	let numsCount = nums.count
 	
 	for (index, value) in findNums.enumerated() {
-		if let i = nums.index(of: value) {
+		if let i = nums.firstIndex(of: value) {
 			let rightElementIndex = i + 1 
 			
 			if rightElementIndex < numsCount {
 				let slice = Array(nums[rightElementIndex..<numsCount])
-				if let elementIndex = slice.index(where: {$0 > value}) {
+				if let elementIndex = slice.firstIndex(where: {$0 > value}) {
 					findNums[index] = slice[elementIndex]
 				} else {
 					findNums[index] = -1
@@ -24,6 +24,9 @@ func nextGreaterElement(_ findNums: [Int], _ nums: [Int]) -> [Int] {
 	return findNums
 }
 
-let result = nextGreaterElement([4,1,2], [1,3,4,2])
-// [7,7,7,7,7]
-print(result)
+func testNextGreaterElement() {
+
+  let result = nextGreaterElement([4,1,2], [1,3,4,2])
+  // [7,7,7,7,7]
+  print(result)
+}

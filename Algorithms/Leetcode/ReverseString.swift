@@ -2,15 +2,17 @@ import Foundation
 
 func reverseString(_ s: String) -> String {
 	
-	var s = Array(s.characters)
+	var s = Array(s)
 	let sLength = s.count
 	
 	for index in 0..<sLength / 2 {
-		swap(&s[index], &s[sLength - (index + 1)])
+    s.swapAt(index, sLength - (index + 1))
 	}		
 	
 	return String(s)
 }
 
-let result = reverseString("money")
-print(result)
+func testReverseString() {
+  let result = reverseString("money")
+  print(result)
+}

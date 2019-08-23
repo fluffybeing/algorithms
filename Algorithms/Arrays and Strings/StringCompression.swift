@@ -12,7 +12,7 @@ import Foundation
 // a3b2c2a2
 func stringCompression(input: String) -> String {
     
-    var input = Array(input.characters)
+    var input = Array(input)
     var compressedString = [input[0]]
     var sameCharacterCounter = 1
     

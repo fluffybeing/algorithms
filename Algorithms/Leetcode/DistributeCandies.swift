@@ -14,5 +14,7 @@ func distributeCandies(_ candies: [Int]) -> Int {
 	return upperCandyCountLimit
 }
 
-let result = distributeCandies([1, 1, 2, 2])
-print(result)
+func testDistributeCandies() {
+  let result = distributeCandies([1, 1, 2, 2])
+  print(result)
+}

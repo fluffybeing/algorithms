@@ -9,7 +9,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     var substring = [Character]()
 
     for c in s {
-        if substring.contains(c), let index = substring.index(of: c) {
+        if substring.contains(c), let index = substring.firstIndex(of: c) {
             length = max(length, substring.count)
             substring.removeSubrange(0...index)
         }
@@ -19,5 +19,7 @@ func lengthOfLongestSubstring(_ s: String) -> Int {
     return max(length, substring.count)
 }
 
-let result = lengthOfLongestSubstring("dvdf")
-print(result)
+func testLengthOfLongestSubstring() {
+  let result = lengthOfLongestSubstring("dvdf")
+  print(result)
+}

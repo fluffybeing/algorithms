@@ -15,5 +15,7 @@ func arrayPairSum(_ nums: [Int]) -> Int {
   return sum
 }
 
-let result = arrayPairSum([1, 4, 2, 3])
-print(result)
+func testArrayPartition() {
+  let result = arrayPairSum([1, 4, 2, 3])
+  print(result)
+}
