@@ -116,7 +116,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		670E1CDA231B6524009504A6 /* FindMinBST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMinBST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672E626C22F0088F00D8F1A3 /* Permute.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Permute.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6745E92123201AC7006854C0 /* Creational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Creational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67658BA322D44BA700DF304D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		67669F2D230FC09800CD707B /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; };
 		67669F2E230FC09800CD707B /* Queens.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queens.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -141,7 +143,10 @@
 		677E758822F0053500B1A285 /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
+		6790C790231FCEBB009ADCB1 /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67B9F8BA2306495B00010C02 /* SingleLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingleLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67C51DF22316C1AB00CCB7E3 /* ARC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67CB01E0231685E6000DFFAE /* Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Basics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67D1A22F22EB60ED00862503 /* PossiblePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PossiblePaths.swift; sourceTree = "<group>"; };
 		67D1A23122EB68EF00862503 /* PalindromicPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicPartition.swift; sourceTree = "<group>"; };
 		67D1A23322EB742200862503 /* NQueen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueen.swift; sourceTree = "<group>"; };
@@ -254,8 +259,20 @@
 				67669F43230FC2E400CD707B /* ReverseWord.swift */,
 				67669F3B230FC2E400CD707B /* RomanToInteger.swift */,
 				67669F36230FC2E300CD707B /* ShortestUnsortedContinuousSubarray.swift */,
+				670E1CDA231B6524009504A6 /* FindMinBST.playground */,
 			);
 			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		67CB01DF231685C2000DFFAE /* Design Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				6790C790231FCEBB009ADCB1 /* Generics.playground */,
+				67CB01E0231685E6000DFFAE /* Basics.playground */,
+				67C51DF22316C1AB00CCB7E3 /* ARC.playground */,
+				6745E92123201AC7006854C0 /* Creational.playground */,
+			);
+			path = "Design Pattern";
 			sourceTree = "<group>";
 		};
 		67D1A22E22EB60D900862503 /* Recursion */ = {
@@ -403,6 +420,7 @@
 		B7F6F7491E852FF6005AF787 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				67CB01DF231685C2000DFFAE /* Design Pattern */,
 				67669F54230FC7D000CD707B /* Python */,
 				67669F33230FC2C000CD707B /* Leetcode */,
 				67D1A22E22EB60D900862503 /* Recursion */,
