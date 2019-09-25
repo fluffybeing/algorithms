@@ -117,8 +117,11 @@
 
 /* Begin PBXFileReference section */
 		670E1CDA231B6524009504A6 /* FindMinBST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMinBST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		671EFFFA2334A80600C4EE72 /* PowerSet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PowerSet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672E626C22F0088F00D8F1A3 /* Permute.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Permute.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67339DAA2323828E0002B64E /* CoinProlem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoinProlem.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6745E92123201AC7006854C0 /* Creational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Creational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		675A7F3E23390DD700472FD8 /* ShortestPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortestPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67658BA322D44BA700DF304D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		67669F2D230FC09800CD707B /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; };
 		67669F2E230FC09800CD707B /* Queens.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queens.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -140,6 +143,7 @@
 		67669F42230FC2E400CD707B /* ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		67669F43230FC2E400CD707B /* ReverseWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseWord.swift; sourceTree = "<group>"; };
 		67669F54230FC7D000CD707B /* Python */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Python; sourceTree = "<group>"; };
+		67779471233A69D00031CB00 /* HeapSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HeapSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		677E758822F0053500B1A285 /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
@@ -260,6 +264,7 @@
 				67669F3B230FC2E400CD707B /* RomanToInteger.swift */,
 				67669F36230FC2E300CD707B /* ShortestUnsortedContinuousSubarray.swift */,
 				670E1CDA231B6524009504A6 /* FindMinBST.playground */,
+				67339DAA2323828E0002B64E /* CoinProlem.playground */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -281,6 +286,8 @@
 				67D1A22F22EB60ED00862503 /* PossiblePaths.swift */,
 				67D1A23122EB68EF00862503 /* PalindromicPartition.swift */,
 				67D1A23322EB742200862503 /* NQueen.swift */,
+				671EFFFA2334A80600C4EE72 /* PowerSet.playground */,
+				675A7F3E23390DD700472FD8 /* ShortestPath.playground */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -460,6 +467,7 @@
 				B7F6F75D1E859F23005AF787 /* Insertion.swift */,
 				67658BA322D44BA700DF304D /* MergeSort.swift */,
 				678877B822E9A67B0057646A /* QuickSort.swift */,
+				67779471233A69D00031CB00 /* HeapSort.playground */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
