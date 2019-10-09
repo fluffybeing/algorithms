@@ -120,10 +120,16 @@
 		671EFFFA2334A80600C4EE72 /* PowerSet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PowerSet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67236A71233BCA1900E6DB8C /* LongestCommonSubstring.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LongestCommonSubstring.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67236AA4233C6F4F00E6DB8C /* DPIntro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DPIntro.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		672C1A882342D55200E7793D /* LowestCommonAncestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LowestCommonAncestor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		672C1A8A2343065C00E7793D /* ZeroOneKnapSack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ZeroOneKnapSack.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		672C1ABB234333F900E7793D /* DecodeWays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DecodeWays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		672C1ABC2343B65E00E7793D /* MinStep.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MinStep.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		672C1B492346556C00E7793D /* MatrixProduct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MatrixProduct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672E626C22F0088F00D8F1A3 /* Permute.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Permute.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67339DAA2323828E0002B64E /* CoinProlem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoinProlem.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6745E92123201AC7006854C0 /* Creational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Creational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		675A7F3E23390DD700472FD8 /* ShortestPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortestPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		675ACE53234D5EC50046C1AA /* ConcurrencyOne.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConcurrencyOne.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67658BA322D44BA700DF304D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		67669F2D230FC09800CD707B /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; };
 		67669F2E230FC09800CD707B /* Queens.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queens.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -145,6 +151,7 @@
 		67669F42230FC2E400CD707B /* ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		67669F43230FC2E400CD707B /* ReverseWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseWord.swift; sourceTree = "<group>"; };
 		67669F54230FC7D000CD707B /* Python */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Python; sourceTree = "<group>"; };
+		6772210C2348EA2A00F9ED43 /* MergeKArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeKArrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67779471233A69D00031CB00 /* HeapSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HeapSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		677E758822F0053500B1A285 /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
@@ -157,8 +164,10 @@
 		67D1A23122EB68EF00862503 /* PalindromicPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicPartition.swift; sourceTree = "<group>"; };
 		67D1A23322EB742200862503 /* NQueen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueen.swift; sourceTree = "<group>"; };
 		67DD0BEF23411A91005109CA /* MobileKeypad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MobileKeypad.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67DD0BF02341B746005109CA /* Median.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Median.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67E1C316230E35ED00D1AB8B /* LevelOrder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LevelOrder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67E1C317230E410400D1AB8B /* LeavesCompare.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeavesCompare.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67FBFF5F234C60DB00EBAB7D /* PhoneKeyPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhoneKeyPad.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		B72034C11EB062E00085DBC4 /* NQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
 		B72034C31EB087EC0085DBC4 /* KnightsTour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsTour.swift; sourceTree = "<group>"; };
@@ -247,6 +256,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672C1A892343060700E7793D /* ByteAcademy */ = {
+			isa = PBXGroup;
+			children = (
+				672C1A8A2343065C00E7793D /* ZeroOneKnapSack.playground */,
+				672C1ABB234333F900E7793D /* DecodeWays.playground */,
+				672C1ABC2343B65E00E7793D /* MinStep.playground */,
+				672C1B492346556C00E7793D /* MatrixProduct.playground */,
+				6772210C2348EA2A00F9ED43 /* MergeKArrays.playground */,
+				67FBFF5F234C60DB00EBAB7D /* PhoneKeyPad.playground */,
+				675ACE53234D5EC50046C1AA /* ConcurrencyOne.playground */,
+			);
+			path = ByteAcademy;
+			sourceTree = "<group>";
+		};
 		67669F33230FC2C000CD707B /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,6 +419,7 @@
 				B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */,
 				67E1C316230E35ED00D1AB8B /* LevelOrder.playground */,
 				67E1C317230E410400D1AB8B /* LeavesCompare.playground */,
+				672C1A882342D55200E7793D /* LowestCommonAncestor.playground */,
 			);
 			path = "Tree and Graph";
 			sourceTree = "<group>";
@@ -432,6 +456,7 @@
 		B7F6F7491E852FF6005AF787 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				672C1A892343060700E7793D /* ByteAcademy */,
 				67CB01DF231685C2000DFFAE /* Design Pattern */,
 				67669F54230FC7D000CD707B /* Python */,
 				67669F33230FC2C000CD707B /* Leetcode */,
@@ -462,6 +487,7 @@
 				B7F6F77C1E85A470005AF787 /* StringCompression.swift */,
 				B7870F131E86546B0089FC1F /* StringRotation.swift */,
 				67236A71233BCA1900E6DB8C /* LongestCommonSubstring.playground */,
+				67DD0BF02341B746005109CA /* Median.playground */,
 			);
 			path = "Arrays and Strings";
 			sourceTree = "<group>";
