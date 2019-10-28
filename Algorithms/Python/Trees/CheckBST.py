@@ -25,7 +25,3 @@ def isBST(root):
 	return True
 	
 	
-# use inorder traversal to check if it is bst or not
-
-	
-	

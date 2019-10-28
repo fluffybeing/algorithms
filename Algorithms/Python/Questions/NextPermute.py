@@ -1,10 +1,6 @@
 #!/usr/bin/python
 
 def nextPermutation(A):
-	
-	
-	# suffix
-	# they are in decending order
 	suffixs = None
 	suffixStartIndex = None
 	for index in range(len(A) - 1):
