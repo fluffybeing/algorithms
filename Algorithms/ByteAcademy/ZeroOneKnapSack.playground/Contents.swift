@@ -19,56 +19,58 @@ struct Item: Equatable {
   }
 }
 
-func knapsackBrute(_ items: [Item], _ weight: Int) -> Int {
-  var cache = Map()
-  return knapsack(items, weight, 0, &cache)
-}
-
-private func knapsackBrute(_ items: [Item],
-                           _ weight: Int,
-                           _ index: Int) -> Int {
-  if index == items.count {
+private func knapsackBrute(items: [Item], maxWeight: Int) -> Int {
+  if maxWeight == 0 {
     return 0
   }
 
-  let item = items[index]
-  if weight - item.weight < 0 {
-    return knapsackBrute(items, weight, index + 1)
+  if maxWeight < 0 {
+    return Int.min
   }
 
-  return max(knapsackBrute(items, weight - item.weight, index+1) + item.value,
-             knapsackBrute(items, weight, index + 1))
+  var maxValue = Int.min
+  for item in items {
+    if maxWeight < item.weight { continue }
+
+    maxValue = max(maxValue, knapsackBrute(items: items,
+                                           maxWeight: maxWeight - item.weight) + item.value)
+  }
+
+  return maxValue
 }
 
-// Using memoisation
-private func knapsack(_ items: [Item],
-                      _ weight: Int,
-                      _ index: Int,
-                      _ cache: inout Map) -> Int {
-  if index == items.count {
+private func knapsack(items: [Item], maxWeight: Int, cache: inout [Int]) -> Int {
+  if maxWeight == 0 {
     return 0
   }
 
-  if let val = cache[index]?[weight] {
-    return val
+  if maxWeight < 0 {
+    return Int.min
   }
 
-  let item = items[index]
-  let toReturn: Int
-  if weight - item.weight < 0 {
-    toReturn = knapsack(items, weight, index + 1, &cache)
-  } else {
-    toReturn = max(knapsack(items, weight - item.weight, index + 1, &cache) + item.value,
-                   knapsack(items, weight, index + 1, &cache))
+  if cache[maxWeight] >= 0 {
+    return cache[maxWeight]
   }
 
-  cache[index] = [weight: toReturn]
-  return toReturn
+  var maxValue = Int.min
+  for item in items {
+    if maxWeight < item.weight { continue }
+
+    maxValue = max(maxValue, knapsack(items: items,
+                                      maxWeight: maxWeight - item.weight,
+                                      cache: &cache) + item.value)
+  }
+
+  cache[maxWeight] = maxValue
+  return maxValue
 }
 
 
 let items = [Item(value: 6, weight: 2),
              Item(value: 10, weight: 2),
              Item(value: 12, weight: 3)]
-let result = knapsackBrute(items, 5)
+var cache = [Int](repeating: -1, count: 6)
+cache[0] = 0
+//let result = knapsackBrute(items: items, maxWeight: 5)
+let result = knapsack(items: items, maxWeight: 5, cache: &cache)
 print(result)
