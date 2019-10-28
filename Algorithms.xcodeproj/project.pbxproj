@@ -118,6 +118,7 @@
 /* Begin PBXFileReference section */
 		670E1CDA231B6524009504A6 /* FindMinBST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMinBST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		671EFFFA2334A80600C4EE72 /* PowerSet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PowerSet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		671FAF842366E0A0005B7E5F /* FindDuplicates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindDuplicates.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67236A71233BCA1900E6DB8C /* LongestCommonSubstring.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LongestCommonSubstring.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67236AA4233C6F4F00E6DB8C /* Coin Problem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Coin Problem.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672C1A882342D55200E7793D /* LowestCommonAncestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LowestCommonAncestor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -267,6 +268,7 @@
 				6772210C2348EA2A00F9ED43 /* MergeKArrays.playground */,
 				67FBFF5F234C60DB00EBAB7D /* PhoneKeyPad.playground */,
 				675ACE53234D5EC50046C1AA /* ConcurrencyOne.playground */,
+				671FAF842366E0A0005B7E5F /* FindDuplicates.playground */,
 			);
 			path = ByteAcademy;
 			sourceTree = "<group>";
