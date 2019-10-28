@@ -9,15 +9,12 @@ func mergeArrays(a: [Int], b: [Int]) -> [Int] {
   while mergeIndex >= 0 {
     if j >= 0, b[j] > a[i] {
       a[mergeIndex] = b[j]
-      mergeIndex -= 1
       j -= 1
     } else if i >= 0 {
       a[mergeIndex] = a[i]
       i -= 1
-      mergeIndex -= 1
-    } else {
-      mergeIndex -= 1
     }
+    mergeIndex -= 1
   }
 
   return a
