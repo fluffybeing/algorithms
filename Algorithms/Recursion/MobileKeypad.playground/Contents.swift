@@ -25,9 +25,7 @@ func findKeysCombinationsUtil(_ nums: [Int], index: Int, combination: String) {
 
   let num = nums[index]
   for char in keypad[num]  {
-    findKeysCombinationsUtil(nums,
-                             index: index + 1,
-                             combination: combination + char)
+    findKeysCombinationsUtil(nums, index: index + 1, combination: combination + char)
   }
 }
 

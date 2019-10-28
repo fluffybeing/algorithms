@@ -22,3 +22,7 @@ func matrixProductUtil(_ mat: [[Int]], visit: inout [[Int]],
   visit[x][y + 1] = 1
   matrixProductUtil(mat, visit: &visit, x: x, y: y + 1, product: &product)
 }
+
+
+
+

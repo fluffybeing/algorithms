@@ -7,6 +7,8 @@ import Cocoa
 // f(i) = val + f(n - i)
 // Brute force
 
+typealias Map = [Int: [Int: Int]]
+
 struct Item: Equatable {
   let value: Int
   let weight: Int
@@ -18,13 +20,10 @@ struct Item: Equatable {
 }
 
 func knapsackBrute(_ items: [Item], _ weight: Int) -> Int {
-//  return knapsackBrute(items, weight, 0)
-
-  var cache = [Int: [Int: Int]]()
+  var cache = Map()
   return knapsack(items, weight, 0, &cache)
 }
 
-// with brute force
 private func knapsackBrute(_ items: [Item],
                            _ weight: Int,
                            _ index: Int) -> Int {
@@ -41,11 +40,11 @@ private func knapsackBrute(_ items: [Item],
              knapsackBrute(items, weight, index + 1))
 }
 
-// Using the cache
+// Using memoisation
 private func knapsack(_ items: [Item],
                       _ weight: Int,
                       _ index: Int,
-                      _ cache: inout [Int: [Int: Int]]) -> Int {
+                      _ cache: inout Map) -> Int {
   if index == items.count {
     return 0
   }

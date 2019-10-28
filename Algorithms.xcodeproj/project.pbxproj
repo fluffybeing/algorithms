@@ -119,7 +119,7 @@
 		670E1CDA231B6524009504A6 /* FindMinBST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMinBST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		671EFFFA2334A80600C4EE72 /* PowerSet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PowerSet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67236A71233BCA1900E6DB8C /* LongestCommonSubstring.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LongestCommonSubstring.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		67236AA4233C6F4F00E6DB8C /* DPIntro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DPIntro.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67236AA4233C6F4F00E6DB8C /* Coin Problem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Coin Problem.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672C1A882342D55200E7793D /* LowestCommonAncestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LowestCommonAncestor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672C1A8A2343065C00E7793D /* ZeroOneKnapSack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ZeroOneKnapSack.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672C1ABB234333F900E7793D /* DecodeWays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DecodeWays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -127,6 +127,7 @@
 		672C1B492346556C00E7793D /* MatrixProduct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MatrixProduct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672E626C22F0088F00D8F1A3 /* Permute.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Permute.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67339DAA2323828E0002B64E /* CoinProlem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoinProlem.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		673CCD072366989E00D9460E /* SplitArrayInSubarray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SplitArrayInSubarray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6745E92123201AC7006854C0 /* Creational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Creational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		675A7F3E23390DD700472FD8 /* ShortestPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortestPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		675ACE53234D5EC50046C1AA /* ConcurrencyOne.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConcurrencyOne.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -372,7 +373,7 @@
 				B79C487E1E937B93001C9E4C /* TripleStep.swift */,
 				B79C48801E93ADC8001C9E4C /* RobotInAGrid.swift */,
 				678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */,
-				67236AA4233C6F4F00E6DB8C /* DPIntro.playground */,
+				67236AA4233C6F4F00E6DB8C /* Coin Problem.playground */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -488,6 +489,7 @@
 				B7870F131E86546B0089FC1F /* StringRotation.swift */,
 				67236A71233BCA1900E6DB8C /* LongestCommonSubstring.playground */,
 				67DD0BF02341B746005109CA /* Median.playground */,
+				673CCD072366989E00D9460E /* SplitArrayInSubarray.playground */,
 			);
 			path = "Arrays and Strings";
 			sourceTree = "<group>";
