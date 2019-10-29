@@ -170,6 +170,7 @@
 		67D1A22F22EB60ED00862503 /* PossiblePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PossiblePaths.swift; sourceTree = "<group>"; };
 		67D1A23122EB68EF00862503 /* PalindromicPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicPartition.swift; sourceTree = "<group>"; };
 		67D1A23322EB742200862503 /* NQueen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueen.swift; sourceTree = "<group>"; };
+		67DACAB623681A8700CC1611 /* LongestSubsequence.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LongestSubsequence.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67DD0BEF23411A91005109CA /* MobileKeypad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MobileKeypad.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67DD0BF02341B746005109CA /* Median.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Median.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67E1C316230E35ED00D1AB8B /* LevelOrder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LevelOrder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -386,6 +387,7 @@
 				B79C48801E93ADC8001C9E4C /* RobotInAGrid.swift */,
 				678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */,
 				67236AA4233C6F4F00E6DB8C /* Coin Problem.playground */,
+				67DACAB623681A8700CC1611 /* LongestSubsequence.playground */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
