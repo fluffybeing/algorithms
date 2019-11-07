@@ -38,6 +38,6 @@ let stack = NStacks(n: 3, capacity: 10)
 stack.push(val: 10, in: 0)
 stack.push(val: 11, in: 2)
 
-print(stack.pop(from: 0))
-print(stack.pop(from: 2))
+print(stack.pop(from: 0)!)
+print(stack.pop(from: 2)!)
 
