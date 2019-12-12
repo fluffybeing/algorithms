@@ -117,6 +117,8 @@
 
 /* Begin PBXFileReference section */
 		670E1CDA231B6524009504A6 /* FindMinBST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMinBST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6715133223A0F74100081EE1 /* Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6715133323A1178000081EE1 /* Day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		671EFFFA2334A80600C4EE72 /* PowerSet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PowerSet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		671FAF842366E0A0005B7E5F /* FindDuplicates.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindDuplicates.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		671FAF852366E5F6005B7E5F /* FindConsecutive.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindConsecutive.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -181,6 +183,7 @@
 		67DD0BF02341B746005109CA /* Median.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Median.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67E1C316230E35ED00D1AB8B /* LevelOrder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LevelOrder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67E1C317230E410400D1AB8B /* LeavesCompare.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LeavesCompare.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67F397FA2386629300D2DEA5 /* MonteCarloPI.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MonteCarloPI.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67FBFF5F234C60DB00EBAB7D /* PhoneKeyPad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PhoneKeyPad.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B70314331E86FF4500514ED5 /* RemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
 		B72034C11EB062E00085DBC4 /* NQueens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NQueens.swift; sourceTree = "<group>"; };
@@ -270,6 +273,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6715133023A0F70B00081EE1 /* Advent of Code */ = {
+			isa = PBXGroup;
+			children = (
+				6715133123A0F71D00081EE1 /* 2019 */,
+			);
+			path = "Advent of Code";
+			sourceTree = "<group>";
+		};
+		6715133123A0F71D00081EE1 /* 2019 */ = {
+			isa = PBXGroup;
+			children = (
+				6715133223A0F74100081EE1 /* Day1.playground */,
+				6715133323A1178000081EE1 /* Day2.playground */,
+			);
+			path = 2019;
+			sourceTree = "<group>";
+		};
 		672C1A892343060700E7793D /* ByteAcademy */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +311,7 @@
 				672C8B6E23745270002C6ADF /* NStacks.playground */,
 				672C8B6F2374635B002C6ADF /* IsAnagram.playground */,
 				672C8B702374720A002C6ADF /* BuildOrder.playground */,
+				67F397FA2386629300D2DEA5 /* MonteCarloPI.playground */,
 			);
 			path = ByteAcademy;
 			sourceTree = "<group>";
@@ -482,6 +503,7 @@
 		B7F6F7491E852FF6005AF787 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				6715133023A0F70B00081EE1 /* Advent of Code */,
 				672C1A892343060700E7793D /* ByteAcademy */,
 				67CB01DF231685C2000DFFAE /* Design Pattern */,
 				67669F54230FC7D000CD707B /* Python */,
