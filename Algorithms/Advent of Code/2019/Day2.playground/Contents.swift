@@ -56,3 +56,52 @@ func intCode(nums: [Int]) -> Int {
 
 
 print(intCode(nums: codes))
+
+
+
+// Can improve with binary search
+func intCode2(nums: [Int]) -> (Int, Int) {
+  for noun in 0...99 {
+    for verb in 0...99 {
+      // Every time we have to initialize with new
+      // input
+      var nums = nums
+
+      nums[1] = noun
+      nums[2] = verb
+      
+      for position in stride(from: 0, to: nums.count, by: 4) {
+        func getOperands(_ val: Int) -> (Int, Int) {
+          guard val + 2 < nums.count else { return (0, 0) }
+          
+          let index1 = nums[val + 1]
+          let index2 = nums[val + 2]
+          
+          return (nums[index1], nums[index2])
+        }
+        
+        let operands = getOperands(position)
+        if nums[position] == OPCode.add.rawValue {
+          let sum = operands.0 + operands.1
+          let storeIndex = nums[position + 3]
+          nums[storeIndex] = sum
+        } else if nums[position] == OPCode.multiply.rawValue {
+          let multi = operands.0 * operands.1
+          let storeIndex = nums[position + 3]
+          nums[storeIndex] = multi
+        } else if nums[position] == OPCode.halt.rawValue {
+          if nums[0] == 19690720 {
+            return (noun, verb)
+          } else {
+            break
+          }
+        }
+      }
+    }
+  }
+  
+  return (0, 0)
+}
+
+
+print(intCode2(nums: codes))
