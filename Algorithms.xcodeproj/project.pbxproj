@@ -175,6 +175,7 @@
 		67B9F8BA2306495B00010C02 /* SingleLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingleLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67C51DF22316C1AB00CCB7E3 /* ARC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67CB01E0231685E6000DFFAE /* Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Basics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67CEB77B23A321E80079B9ED /* Day3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67D1A22F22EB60ED00862503 /* PossiblePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PossiblePaths.swift; sourceTree = "<group>"; };
 		67D1A23122EB68EF00862503 /* PalindromicPartition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromicPartition.swift; sourceTree = "<group>"; };
 		67D1A23322EB742200862503 /* NQueen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NQueen.swift; sourceTree = "<group>"; };
@@ -286,6 +287,7 @@
 			children = (
 				6715133223A0F74100081EE1 /* Day1.playground */,
 				6715133323A1178000081EE1 /* Day2.playground */,
+				67CEB77B23A321E80079B9ED /* Day3.playground */,
 			);
 			path = 2019;
 			sourceTree = "<group>";
@@ -506,7 +508,6 @@
 				6715133023A0F70B00081EE1 /* Advent of Code */,
 				672C1A892343060700E7793D /* ByteAcademy */,
 				67CB01DF231685C2000DFFAE /* Design Pattern */,
-				67669F54230FC7D000CD707B /* Python */,
 				67669F33230FC2C000CD707B /* Leetcode */,
 				67D1A22E22EB60D900862503 /* Recursion */,
 				C0C43E4322E2B89D00C20028 /* Playgrounds */,
@@ -519,6 +520,7 @@
 				B7F6F7611E859F4A005AF787 /* Matrix */,
 				B7F6F75A1E859EEC005AF787 /* Sorting */,
 				B7F6F7511E853003005AF787 /* Arrays and Strings */,
+				67669F54230FC7D000CD707B /* Python */,
 				B7F6F74A1E852FF6005AF787 /* main.swift */,
 			);
 			path = Algorithms;

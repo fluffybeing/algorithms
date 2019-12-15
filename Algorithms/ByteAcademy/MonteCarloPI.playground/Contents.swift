@@ -1,8 +1,5 @@
 import Cocoa
 
-var str = "Hello, playground"
-
-
 func countCoins(_ val: Int, coins: [Int], counter: inout [Int]) -> Int {
   if val == 0 {
     return 0
@@ -23,7 +20,6 @@ func countCoins(_ val: Int, coins: [Int], counter: inout [Int]) -> Int {
 
   return minimum
 }
-
 
 var counter = [0, 0, 0, 0]
 var coins = [1, 2, 5, 10]
