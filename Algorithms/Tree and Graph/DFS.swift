@@ -8,17 +8,18 @@
 
 import Foundation
 
+typealias VisitedDictionary = [Vertex<String>: Bool]
 
-func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String>) -> [Vertex<String>] {
+func depthFirstSearch(graph: AdjancencyListGraph<String>, source: Vertex<String>) -> [Vertex<String>] {
     
   var stack = Stack<Vertex<String>>()
-  // Created Visited Dictionary
-  var visited = { () -> [Vertex<String> : Bool] in
-    var visited: [Vertex<String>: Bool] = [:]
+
+  var visited: VisitedDictionary = {
+    var v = VisitedDictionary()
     graph.adjacencyDict.keys.forEach {
-      visited[$0] = false
+      v[$0] = false
     }
-    return visited
+    return v
   }()
 
   var path: [Vertex<String>] = []
@@ -28,20 +29,16 @@ func depthFirstSearch(graph: AdjancencyListGraph<String> , source: Vertex<String
   visited[source] = true
     
   while !stack.isEmpty {
-    // remove the recently added element and add it to the path
-    let topElement = stack.pop()
-    path.append(topElement!)
-
+    let topElement = stack.pop()!
+    path.append(topElement)
+    visited[topElement] = true
+    
     // get the neighbours
-    guard let neigbhours = graph.edges(from: topElement!) else {
-      return path
-    }
-
-    for neigbhour in neigbhours {
-      let destinationVertex = neigbhour.destination
-      if visited[destinationVertex] == false {
-        stack.push(destinationVertex)
-        visited[destinationVertex] = true
+    if let neigbhours = graph.neighbours(for: topElement) {
+      for neigbhour in neigbhours {
+        if visited[neigbhour] == false {
+          stack.push(neigbhour)
+        }
       }
     }
   }

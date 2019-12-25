@@ -60,6 +60,13 @@ extension AdjancencyListGraph: Graphable {
   func edges(from source: Vertex<T>) -> [Edge<T>]? {
     return adjacencyDict[source]
   }
+  
+  func neighbours(for node: Vertex<T>) -> [Vertex<T>]? {
+    if let e = edges(from: node) {
+      return e.map { $0.destination }
+    }
+    return nil
+  }
 
   public var description: CustomStringConvertible {
     var result = ""
