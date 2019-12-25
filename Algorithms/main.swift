@@ -21,3 +21,4 @@ import Foundation
 //commonAncestorTest()
 //priorityQueueTest()
 //quickSortTest()
+connectedComponents(g)
