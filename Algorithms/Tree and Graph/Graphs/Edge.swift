@@ -9,7 +9,8 @@
 import Foundation
 
 public enum EdgeType {
-  case directed, undirected
+  case directed
+  case undirected
 }
 
 public struct Edge<T: Hashable> {

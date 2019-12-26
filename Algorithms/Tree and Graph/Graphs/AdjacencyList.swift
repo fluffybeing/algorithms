@@ -17,24 +17,32 @@ class AdjancencyListGraph<T: Hashable> {
 }
 
 extension AdjancencyListGraph: Graphable {
+  @discardableResult
   public func createVertex(data: T) -> Vertex<T> {
     let vertex = Vertex(data: data)
     adjacencyDict.updateValue([], forKey: vertex)
     return vertex
   }
 
-  func addDirectedEdge(from source: Vertex<T>, to destination: Vertex<T>, weight: Double?) {
-    let edge = Edge(source: source, destination: destination, weight: weight)
+  func addDirectedEdge(from source: Vertex<T>,
+                       to destination: Vertex<T>,
+                       weight: Double?) {
+    let edge = Edge(source: source,
+                    destination: destination,
+                    weight: weight)
     adjacencyDict[source]?.append(edge)
   }
     
-  func addUnDirectedEdge(vertices: (Vertex<T>, Vertex<T>), weight: Double?) {
+  func addUnDirectedEdge(vertices: (Vertex<T>, Vertex<T>),
+                         weight: Double?) {
     let (src, dest) = vertices
     addDirectedEdge(from: src, to: dest, weight: weight)
     addDirectedEdge(from: dest, to: src, weight: weight)
   }
     
-  func add(_ type: EdgeType, from source: Vertex<T>, to destination: Vertex<T>, weight: Double?) {
+  func add(_ type: EdgeType,
+           from source: Vertex<T>,
+           to destination: Vertex<T>, weight: Double?) {
       switch type {
       case .directed:
         addDirectedEdge(from: source, to: destination, weight: weight)
@@ -43,7 +51,8 @@ extension AdjancencyListGraph: Graphable {
       }
     }
     
-  func weight(fom source: Vertex<T>, to destination: Vertex<T>) -> Double? {
+  func weight(fom source: Vertex<T>,
+              to destination: Vertex<T>) -> Double? {
     guard let edges = adjacencyDict[source] else {
       return nil
     }

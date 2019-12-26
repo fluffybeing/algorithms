@@ -34,10 +34,10 @@ func isBalancedTest() {
 
   // Add the root node
   bst.root = BSTNode(data: 3)
-  _ = bst.insert(root: bst.root, key: BSTNode(data: 5))
-  _ = bst.insert(root: bst.root, key: BSTNode(data: 2))
-  _ = bst.insert(root: bst.root?.left, key: BSTNode(data: 4))
-  _ = bst.insert(root: bst.root, key: BSTNode(data: 1))
+  bst.insert(root: bst.root, key: BSTNode(data: 5))
+  bst.insert(root: bst.root, key: BSTNode(data: 2))
+  bst.insert(root: bst.root?.left, key: BSTNode(data: 4))
+  bst.insert(root: bst.root, key: BSTNode(data: 1))
 
   print(isBalanced(root: bst.root))
 }
