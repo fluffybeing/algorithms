@@ -23,11 +23,13 @@ extension State: CustomStringConvertible {
 
 func buildOrder(_ packages: [Int: [Int]]) -> [Int] {
   var path = [Int]()
-  
+  var visited = [Int: Bool]()
+  packages.forEach({ visited[$0.key] = false })
+    
   for package in packages.keys {
-    var visited = [Int: Bool]()
-    visited[package] = true
-    dfs(packages, src: package, path: &path, visited: &visited)
+    if !path.contains(package) {
+      dfs(packages, src: package, path: &path, visited: &visited)
+    }
   }
 
   return path
@@ -35,19 +37,20 @@ func buildOrder(_ packages: [Int: [Int]]) -> [Int] {
 
 // Something is wrong with this code
 func dfs(_ g: GraphDict, src: Int, path: inout [Int], visited: inout [Int: Bool]) {
+  visited[src] = true
   
-  if let neigbhours = g[src], !neigbhours.isEmpty {
+  if let neigbhours = g[src] {
     for n in neigbhours {
+      print(src, n, visited, path)
+      if visited[n]! {
+        fatalError("Cycle")
+      }
       dfs(g, src: n, path: &path, visited: &visited)
     }
-  }
-  
-  if !path.contains(src) {
+    
     path.append(src)
-    visited[src] = false
+    visited[src] = false // This is what wrong with the algo, we can track temporary node
   }
-
-  return
 }
 
 
