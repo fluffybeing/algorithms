@@ -170,6 +170,8 @@
 		6772210C2348EA2A00F9ED43 /* MergeKArrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeKArrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67779471233A69D00031CB00 /* HeapSort.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HeapSort.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67783EF023B660FE000C630E /* ShortestPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortestPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67783EF123B664C5000C630E /* RandomBinaryTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RandomBinaryTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67783EF223B676BF000C630E /* BitwiseSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BitwiseSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		677E758822F0053500B1A285 /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
@@ -317,6 +319,8 @@
 				672C8B6F2374635B002C6ADF /* IsAnagram.playground */,
 				672C8B702374720A002C6ADF /* BuildOrder.playground */,
 				67783EF023B660FE000C630E /* ShortestPath.playground */,
+				67783EF123B664C5000C630E /* RandomBinaryTree.playground */,
+				67783EF223B676BF000C630E /* BitwiseSum.playground */,
 			);
 			path = ByteAcademy;
 			sourceTree = "<group>";
