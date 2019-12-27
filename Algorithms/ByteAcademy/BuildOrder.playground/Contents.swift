@@ -1,5 +1,7 @@
 import Cocoa
 
+typealias GraphDict = [Int: [Int]]
+
 enum State: Int {
   case white
   case gray
@@ -31,7 +33,8 @@ func buildOrder(_ packages: [Int: [Int]]) -> [Int] {
   return path
 }
 
-func dfs(_ g: [Int: [Int]], src: Int, path: inout [Int], visited: inout [Int: Bool]) {
+// Something is wrong with this code
+func dfs(_ g: GraphDict, src: Int, path: inout [Int], visited: inout [Int: Bool]) {
   
   if let neigbhours = g[src], !neigbhours.isEmpty {
     for n in neigbhours {
@@ -47,6 +50,8 @@ func dfs(_ g: [Int: [Int]], src: Int, path: inout [Int], visited: inout [Int: Bo
   return
 }
 
+
+// Second Try
 func topologicalSort(_ g: [Int: [Int]]) -> [Int] {
   var path = [Int]()
   let whites = Array(repeating: State.white, count: g.keys.count)
@@ -61,7 +66,7 @@ func topologicalSort(_ g: [Int: [Int]]) -> [Int] {
   return path.reversed()
 }
 
-func dfs2(_ g: [Int: [Int]],
+func dfs2(_ g: GraphDict,
           src: Int,
           path: inout [Int],
           states: inout [Int: State]) {
