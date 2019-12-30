@@ -16,7 +16,12 @@ func isBST(root: BSTNode<Int>?, leftMin: Int, rightMax: Int) -> Bool {
     return false
   }
 
-  return isBST(root: n.left, leftMin: leftMin, rightMax: n.data) && isBST(root: n.right, leftMin: n.data, rightMax: rightMax)
+  return isBST(root: n.left,
+               leftMin: leftMin,
+               rightMax: n.data)
+    && isBST(root: n.right,
+             leftMin: n.data,
+             rightMax: rightMax)
 }
 
 func isBSTTest() {
@@ -30,6 +35,6 @@ func isBSTTest() {
   bst.insert(root: bst.root, key: BSTNode(data: 1))
 
   bst.inorder(node: bst.root)
-  let result = isBST(root: bst.root, leftMin: Int(INT8_MIN), rightMax: Int(INT_MAX))
+  let result = isBST(root: bst.root, leftMin: Int.min, rightMax: Int.max)
   assert(result == false)
 }
