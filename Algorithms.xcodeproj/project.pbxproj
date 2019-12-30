@@ -146,6 +146,7 @@
 		6745E92123201AC7006854C0 /* Creational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Creational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		675A7F3E23390DD700472FD8 /* ShortestPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortestPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		675ACE53234D5EC50046C1AA /* ConcurrencyOne.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConcurrencyOne.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67619F4323B88D1F00B7C515 /* LongestConsecutiveBranch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LongestConsecutiveBranch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67658BA322D44BA700DF304D /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		67669F2D230FC09800CD707B /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; };
 		67669F2E230FC09800CD707B /* Queens.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queens.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -173,6 +174,7 @@
 		67783EF123B664C5000C630E /* RandomBinaryTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RandomBinaryTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67783EF223B676BF000C630E /* BitwiseSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BitwiseSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67783EF323B68A1A000C630E /* ReverseStack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseStack.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67783EF423B6E39E000C630E /* TreeToDoublyLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TreeToDoublyLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		677E758822F0053500B1A285 /* Subsets.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subsets.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678877B822E9A67B0057646A /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
@@ -323,6 +325,8 @@
 				67783EF123B664C5000C630E /* RandomBinaryTree.playground */,
 				67783EF223B676BF000C630E /* BitwiseSum.playground */,
 				67783EF323B68A1A000C630E /* ReverseStack.playground */,
+				67783EF423B6E39E000C630E /* TreeToDoublyLinkedList.playground */,
+				67619F4323B88D1F00B7C515 /* LongestConsecutiveBranch.playground */,
 			);
 			path = ByteAcademy;
 			sourceTree = "<group>";
