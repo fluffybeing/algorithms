@@ -131,6 +131,7 @@
 		6723D61D23B338FD00466D34 /* BellmanFord.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BellmanFord.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67253CBB23BB0DA500767866 /* Rotatebits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rotatebits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67253CBC23BB38CF00767866 /* RandomLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RandomLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67253CBD23BB731E00767866 /* ThreeSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThreeSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672C1A882342D55200E7793D /* LowestCommonAncestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LowestCommonAncestor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672C1A8A2343065C00E7793D /* ZeroOneKnapSack.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ZeroOneKnapSack.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		672C1ABB234333F900E7793D /* DecodeWays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DecodeWays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -194,6 +195,8 @@
 		67AF75E823B9E3DB0074743A /* InOrderTraversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InOrderTraversal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67B4B54D2375688100CBD667 /* NearestSmallerElement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NearestSmallerElement.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67B9F8BA2306495B00010C02 /* SingleLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingleLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67C23F5123BDAB0D0016A3A8 /* LevelOrder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LevelOrder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67C23F5223BDAC9B0016A3A8 /* AutoComplete.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AutoComplete.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67C51DF22316C1AB00CCB7E3 /* ARC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67CB01E0231685E6000DFFAE /* Basics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Basics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67CEB77B23A321E80079B9ED /* Day3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day3.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -353,6 +356,9 @@
 				678AAC2423BB0341008E7D5C /* GrayCode.playground */,
 				67253CBB23BB0DA500767866 /* Rotatebits.playground */,
 				67253CBC23BB38CF00767866 /* RandomLinkedList.playground */,
+				67253CBD23BB731E00767866 /* ThreeSum.playground */,
+				67C23F5123BDAB0D0016A3A8 /* LevelOrder.playground */,
+				67C23F5223BDAC9B0016A3A8 /* AutoComplete.playground */,
 			);
 			path = ByteAcademy;
 			sourceTree = "<group>";
