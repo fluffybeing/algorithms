@@ -26,6 +26,8 @@
 		67669F53230FC2E400CD707B /* ReverseWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67669F43230FC2E400CD707B /* ReverseWord.swift */; };
 		678877B922E9A67B0057646A /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678877B822E9A67B0057646A /* QuickSort.swift */; };
 		678877BB22E9AFCD0057646A /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678877BA22E9AFCD0057646A /* LongestCommonSubsequence.swift */; };
+		67A22B3C23DBEE2500EA73B9 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A22B3B23DBEE2500EA73B9 /* Booking.swift */; };
+		67A22B3E23DBEE3200EA73B9 /* Toptal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A22B3D23DBEE3200EA73B9 /* Toptal.swift */; };
 		67D1A23022EB60ED00862503 /* PossiblePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1A22F22EB60ED00862503 /* PossiblePaths.swift */; };
 		67D1A23222EB68EF00862503 /* PalindromicPartition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1A23122EB68EF00862503 /* PalindromicPartition.swift */; };
 		67D1A23422EB742200862503 /* NQueen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D1A23322EB742200862503 /* NQueen.swift */; };
@@ -190,6 +192,8 @@
 		678AAC2323BB013B008E7D5C /* SwapVariables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwapVariables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		678AAC2423BB0341008E7D5C /* GrayCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GrayCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6790C790231FCEBB009ADCB1 /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		67A22B3B23DBEE2500EA73B9 /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		67A22B3D23DBEE3200EA73B9 /* Toptal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toptal.swift; sourceTree = "<group>"; };
 		67AF75E523B9CC990074743A /* PrintRevesedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrintRevesedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67AF75E723B9DE740074743A /* SmallestChange.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SmallestChange.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67AF75E823B9E3DB0074743A /* InOrderTraversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InOrderTraversal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -419,6 +423,8 @@
 		67DFBDAD23A613D300BAD475 /* Asked */ = {
 			isa = PBXGroup;
 			children = (
+				67A22B3D23DBEE3200EA73B9 /* Toptal.swift */,
+				67A22B3B23DBEE2500EA73B9 /* Booking.swift */,
 				67F397FA2386629300D2DEA5 /* CountCoins.playground */,
 				6737480D23A614250031BB60 /* Operators.playground */,
 			);
@@ -771,6 +777,7 @@
 				B7F6F7571E8543AE005AF787 /* URLifyString .swift in Sources */,
 				67669F49230FC2E400CD707B /* Palindrome.swift in Sources */,
 				B7D19FA01E8AA15400AE628C /* Edge.swift in Sources */,
+				67A22B3C23DBEE2500EA73B9 /* Booking.swift in Sources */,
 				67669F4A230FC2E400CD707B /* ReverseString.swift in Sources */,
 				B7D19FA61E8B9A0C00AE628C /* DFS.swift in Sources */,
 				B79C487F1E937B93001C9E4C /* TripleStep.swift in Sources */,
@@ -797,6 +804,7 @@
 				B722A2031EC443A900E94BF2 /* FizzBuzz.swift in Sources */,
 				B79C48811E93ADC8001C9E4C /* RobotInAGrid.swift in Sources */,
 				B745FD291E8724EC009E548A /* Partition.swift in Sources */,
+				67A22B3E23DBEE3200EA73B9 /* Toptal.swift in Sources */,
 				67669F4C230FC2E400CD707B /* ReverseInt.swift in Sources */,
 				B7870F181E869B200089FC1F /* Node.swift in Sources */,
 				67669F4F230FC2E400CD707B /* NumberComplement.swift in Sources */,
