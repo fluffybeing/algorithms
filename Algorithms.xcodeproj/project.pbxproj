@@ -149,6 +149,9 @@
 		6737480D23A614250031BB60 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		673CCD072366989E00D9460E /* SplitArrayInSubarray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SplitArrayInSubarray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6745E92123201AC7006854C0 /* Creational.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Creational.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		674F532E23E25F4800DFC8F1 /* MaxDepthBinaryTree.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MaxDepthBinaryTree.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		674F532F23E2630E00DFC8F1 /* SingleNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SingleNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		674F533023E2665800DFC8F1 /* ReverseLinkList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReverseLinkList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		675A7F3E23390DD700472FD8 /* ShortestPath.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ShortestPath.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		675ACE53234D5EC50046C1AA /* ConcurrencyOne.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConcurrencyOne.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67619F4323B88D1F00B7C515 /* LongestConsecutiveBranch.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LongestConsecutiveBranch.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -194,6 +197,7 @@
 		6790C790231FCEBB009ADCB1 /* Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67A22B3B23DBEE2500EA73B9 /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
 		67A22B3D23DBEE3200EA73B9 /* Toptal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toptal.swift; sourceTree = "<group>"; };
+		67A22B8923DFC25400EA73B9 /* DP Patterns.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "DP Patterns.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67AF75E523B9CC990074743A /* PrintRevesedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrintRevesedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67AF75E723B9DE740074743A /* SmallestChange.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SmallestChange.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		67AF75E823B9E3DB0074743A /* InOrderTraversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InOrderTraversal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -392,6 +396,10 @@
 				67669F36230FC2E300CD707B /* ShortestUnsortedContinuousSubarray.swift */,
 				670E1CDA231B6524009504A6 /* FindMinBST.playground */,
 				67339DAA2323828E0002B64E /* CoinProlem.playground */,
+				67A22B8923DFC25400EA73B9 /* DP Patterns.playground */,
+				674F532E23E25F4800DFC8F1 /* MaxDepthBinaryTree.playground */,
+				674F532F23E2630E00DFC8F1 /* SingleNumber.playground */,
+				674F533023E2665800DFC8F1 /* ReverseLinkList.playground */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
