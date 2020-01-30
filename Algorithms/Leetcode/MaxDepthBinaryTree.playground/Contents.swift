@@ -1,7 +1,7 @@
 import Cocoa
 
 public class TreeNode {
-  public var val:
+  public var val: Int
   public var left: TreeNode?
   public var right: TreeNode?
   
