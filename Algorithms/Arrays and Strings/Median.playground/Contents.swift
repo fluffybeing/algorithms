@@ -47,5 +47,15 @@ func findMedian(_ nums1: [Int], _ nums2: [Int]) -> Double {
   return -1
 }
 
-let res = findMedian([],  [2])
-print(res)
+//
+
+struct User {
+  let name: String
+  
+  var address: String?
+}
+
+let user = User(name: "Amit")
+print(user.name)
+
+user.address!.append("c ")

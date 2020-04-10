@@ -1,5 +1,7 @@
 import Cocoa
 
+
+// Toptal
 func countCoins(_ val: Int, coins: [Int], counter: inout [Int]) -> Int {
   if val == 0 {
     return 0

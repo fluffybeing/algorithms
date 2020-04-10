@@ -74,3 +74,33 @@ cache[0] = 0
 //let result = knapsackBrute(items: items, maxWeight: 5)
 let result = knapsack(items: items, maxWeight: 5, cache: &cache)
 print(result)
+
+
+
+//
+// Basically I need to understand what is going behind the
+// scene
+var store = [Int: Int]()
+func zeroOneKnapscak(items: [Item], maxWeight: Int) -> Int {
+  if maxWeight == 0 {
+    return 0
+  }
+  
+  if let val = store[maxWeight] {
+    return val
+  }
+  
+  var maxValue = Int.min
+  for item in items {
+    if item.weight > maxWeight { continue }
+    
+    maxValue = max(maxValue,
+                   zeroOneKnapscak(items: items,
+                                   maxWeight: maxWeight - item.weight) + item.value)
+
+  }
+  
+  store[maxWeight] = maxValue
+  
+  return maxValue
+}
