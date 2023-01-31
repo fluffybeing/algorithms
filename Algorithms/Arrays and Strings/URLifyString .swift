@@ -12,7 +12,7 @@ import Foundation
 func toURLifyString(input: String, orignalLength: Int, toReplace: Character = " ", replaceWith: String = "%20") -> String {
     
     var input = Array(input)
-    var replaceWith = Array(replaceWith)
+    let replaceWith = Array(replaceWith)
     
     let toReplaceCharacterCount: Int = {
         var count = 0

@@ -15,8 +15,8 @@ import Foundation
 
 func oneAway(firstString: String, secondString: String) -> Bool {
     
-    var firstString = Array(firstString)
-    var secondString = Array(secondString)
+    let firstString = Array(firstString)
+    let secondString = Array(secondString)
     
     let firstStringLength = firstString.count
     let secondStringLength = secondString.count

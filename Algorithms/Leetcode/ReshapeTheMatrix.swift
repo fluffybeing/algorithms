@@ -7,7 +7,7 @@ func matrixReshape(_ nums: [[Int]], _ r: Int, _ c: Int) -> [[Int]] {
 	
 	if row * column == r * c {
 		// convert to one dimensional array
-		var oneD = nums.reduce([], +)
+        let oneD = nums.reduce([], +)
 
 		var twoD = [[Int]]()
 		for i in 0..<r {
