@@ -91,6 +91,7 @@
 		B7DD87721E8E279C00179DA3 /* IsBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87711E8E279C00179DA3 /* IsBST.swift */; };
 		B7DD87741E8E6C9200179DA3 /* ListOfDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */; };
 		B7DD87761E8F9C3100179DA3 /* IsBalanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DD87751E8F9C3100179DA3 /* IsBalanced.swift */; };
+		B7E3F547298A7E4200BE5BC8 /* PalindromeTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E3F546298A7E4200BE5BC8 /* PalindromeTime.swift */; };
 		B7F6F74B1E852FF6005AF787 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F74A1E852FF6005AF787 /* main.swift */; };
 		B7F6F7531E853100005AF787 /* IsUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7521E853100005AF787 /* IsUnique.swift */; };
 		B7F6F7551E853F76005AF787 /* PermutationPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F6F7541E853F76005AF787 /* PermutationPalindrome.swift */; };
@@ -252,6 +253,8 @@
 		B745FD2C1E878888009E548A /* LoopDetection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopDetection.swift; sourceTree = "<group>"; };
 		B745FD2F1E87A4FE009E548A /* DetectIntersection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectIntersection.swift; sourceTree = "<group>"; };
 		B745FD311E87E4EA009E548A /* PalindromeLL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalindromeLL.swift; sourceTree = "<group>"; };
+		B752E40D29BB55090052B53C /* SubsetsRecursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SubsetsRecursion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B752E40F29C063110052B53C /* Dynamic Programming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Dynamic Programming.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B75835521E9A11FF00D55E1A /* BellmanFord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BellmanFord.swift; sourceTree = "<group>"; };
 		B77F0C3F1EADDDB700C558EF /* FloodFill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		B7870F111E8640750089FC1F /* MatrixRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatrixRotation.swift; path = Algorithms/Matrix/MatrixRotation.swift; sourceTree = SOURCE_ROOT; };
@@ -288,6 +291,8 @@
 		B7DD87711E8E279C00179DA3 /* IsBST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBST.swift; sourceTree = "<group>"; };
 		B7DD87731E8E6C9200179DA3 /* ListOfDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfDepth.swift; sourceTree = "<group>"; };
 		B7DD87751E8F9C3100179DA3 /* IsBalanced.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsBalanced.swift; sourceTree = "<group>"; };
+		B7E3F546298A7E4200BE5BC8 /* PalindromeTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeTime.swift; sourceTree = "<group>"; };
+		B7E3F548298BB17A00BE5BC8 /* WeirdAlgorithm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = WeirdAlgorithm.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7F6F7471E852FF6005AF787 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7F6F74A1E852FF6005AF787 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B7F6F7521E853100005AF787 /* IsUnique.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsUnique.swift; sourceTree = "<group>"; };
@@ -301,6 +306,7 @@
 		B7F6F7651E859F8B005AF787 /* IntegerDivision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerDivision.swift; sourceTree = "<group>"; };
 		B7F6F77C1E85A470005AF787 /* StringCompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCompression.swift; sourceTree = "<group>"; };
 		B7F7C1991EB30C5100CC368D /* TopologicalSorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopologicalSorting.swift; sourceTree = "<group>"; };
+		B7FEAE2129C2054B0025CF45 /* Graph.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Graph.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C01F245322E2B95800267843 /* MininumSwaps.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MininumSwaps.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0FD2A9D22EFDDE6002AAB8D /* PrintAllKeyBoardCombo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrintAllKeyBoardCombo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -387,6 +393,8 @@
 		67669F33230FC2C000CD707B /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				B752E40E29C054680052B53C /* Udacity */,
+				B7E3F545298A6F5300BE5BC8 /* 2023 */,
 				67669F3D230FC2E400CD707B /* Add Two Numbers.swift */,
 				67669F3E230FC2E400CD707B /* Array Partition.swift */,
 				67669F38230FC2E400CD707B /* DistributeCandies.swift */,
@@ -482,6 +490,15 @@
 			path = "Stack and Queues";
 			sourceTree = "<group>";
 		};
+		B752E40E29C054680052B53C /* Udacity */ = {
+			isa = PBXGroup;
+			children = (
+				B752E40F29C063110052B53C /* Dynamic Programming.playground */,
+				B7FEAE2129C2054B0025CF45 /* Graph.playground */,
+			);
+			path = Udacity;
+			sourceTree = "<group>";
+		};
 		B7870F161E8664100089FC1F /* Linklist */ = {
 			isa = PBXGroup;
 			children = (
@@ -573,6 +590,16 @@
 			);
 			name = Graph;
 			path = Graphs;
+			sourceTree = "<group>";
+		};
+		B7E3F545298A6F5300BE5BC8 /* 2023 */ = {
+			isa = PBXGroup;
+			children = (
+				B7E3F546298A7E4200BE5BC8 /* PalindromeTime.swift */,
+				B7E3F548298BB17A00BE5BC8 /* WeirdAlgorithm.playground */,
+				B752E40D29BB55090052B53C /* SubsetsRecursion.playground */,
+			);
+			path = 2023;
 			sourceTree = "<group>";
 		};
 		B7F6F73E1E852FF6005AF787 = {
@@ -795,6 +822,7 @@
 				B722A20B1EC466A300E94BF2 /* WrapAnArray.swift in Sources */,
 				B79B8A2F1E8D6FB6000AE107 /* MinimalTree.swift in Sources */,
 				67D1A23022EB60ED00862503 /* PossiblePaths.swift in Sources */,
+				B7E3F547298A7E4200BE5BC8 /* PalindromeTime.swift in Sources */,
 				B79C48721E91633D001C9E4C /* CommonAncestor.swift in Sources */,
 				B79C487A1E92D075001C9E4C /* RandomNumber.swift in Sources */,
 				B7D19F9E1E8AA00200AE628C /* Vertex.swift in Sources */,
