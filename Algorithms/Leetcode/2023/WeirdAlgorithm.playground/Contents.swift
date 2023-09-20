@@ -16,5 +16,8 @@ func weirdAlgorithm(num: Int) {
 }
 
 
-weirdAlgorithm(num: 3)
-weirdAlgorithm(num: 138367)
+//weirdAlgorithm(num: 3)
+//weirdAlgorithm(num: 138367)
+
+let result = [0, 1, 2].flatMap {[$0, $0]}
+print(result)

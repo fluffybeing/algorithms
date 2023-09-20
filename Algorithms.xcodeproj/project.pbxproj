@@ -276,6 +276,7 @@
 		B79C48871E94DEC1001C9E4C /* Kruskal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		B79C489F1E961D3B001C9E4C /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = "Algorithms/Tree and Graph/PriorityQueue.swift"; sourceTree = SOURCE_ROOT; };
 		B7A0D54E1E9B6D66004D4DBA /* Dijkstra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		B7AE873729C3AEF4007B2CB4 /* KClosestNumber.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KClosestNumber.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B7D19F981E8A7B7100AE628C /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		B7D19F9A1E8A9AC300AE628C /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		B7D19F9D1E8AA00200AE628C /* Vertex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
@@ -598,6 +599,7 @@
 				B7E3F546298A7E4200BE5BC8 /* PalindromeTime.swift */,
 				B7E3F548298BB17A00BE5BC8 /* WeirdAlgorithm.playground */,
 				B752E40D29BB55090052B53C /* SubsetsRecursion.playground */,
+				B7AE873729C3AEF4007B2CB4 /* KClosestNumber.playground */,
 			);
 			path = 2023;
 			sourceTree = "<group>";
