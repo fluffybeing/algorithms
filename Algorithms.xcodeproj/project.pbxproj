@@ -119,6 +119,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		663433E72B3435D20078F521 /* Chapter1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		665FDE382B3B7FFE00F75CEF /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		665FDE582B44012500F75CEF /* Chapter2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6699CEA82ABB3E780044E175 /* Thinking Functionally.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Thinking Functionally.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		670E1CDA231B6524009504A6 /* FindMinBST.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMinBST.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6715133223A0F74100081EE1 /* Day1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6715133323A1178000081EE1 /* Day2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -323,6 +327,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663433E62B3435B00078F521 /* Thinking in SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				663433E72B3435D20078F521 /* Chapter1.playground */,
+				665FDE382B3B7FFE00F75CEF /* Combine.playground */,
+				665FDE582B44012500F75CEF /* Chapter2.playground */,
+			);
+			path = "Thinking in SwiftUI";
+			sourceTree = "<group>";
+		};
+		6699CEA72ABB3E460044E175 /* Functional Swift */ = {
+			isa = PBXGroup;
+			children = (
+				6699CEA82ABB3E780044E175 /* Thinking Functionally.playground */,
+			);
+			path = "Functional Swift";
+			sourceTree = "<group>";
+		};
 		6715133023A0F70B00081EE1 /* Advent of Code */ = {
 			isa = PBXGroup;
 			children = (
@@ -623,6 +645,8 @@
 		B7F6F7491E852FF6005AF787 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				663433E62B3435B00078F521 /* Thinking in SwiftUI */,
+				6699CEA72ABB3E460044E175 /* Functional Swift */,
 				67DFBDAD23A613D300BAD475 /* Asked */,
 				6715133023A0F70B00081EE1 /* Advent of Code */,
 				672C1A892343060700E7793D /* ByteAcademy */,

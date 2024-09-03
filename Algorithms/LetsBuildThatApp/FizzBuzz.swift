@@ -9,7 +9,9 @@
 import Foundation
 
 
-func fizzbuzz(numbers: Int) {
+func fizzbuzz(numbers: UInt = 100) {
+    guard numbers <= 100 else { return }
+
     for number in 1...numbers {
         let threeDivisor = number % 3 == 0
         let fiveDivisor = number % 5 == 0

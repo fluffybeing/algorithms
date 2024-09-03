@@ -23,4 +23,6 @@ import Foundation
 //quickSortTest()
 // connectedComponents(g)
 //unionFindUndirectedTest()
-testAddTwoNumbers()
+// testAddTwoNumbers()
+
+fizzbuzz(numbers: 3)
