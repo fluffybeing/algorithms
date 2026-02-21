@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -315,6 +315,11 @@
 		C01F245322E2B95800267843 /* MininumSwaps.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MininumSwaps.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0FD2A9D22EFDDE6002AAB8D /* PrintAllKeyBoardCombo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PrintAllKeyBoardCombo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		663745C22F49E494002841A2 /* 2026 */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 2026; sourceTree = "<group>"; };
+		66891B6C2DFACAB8008539AE /* 2025 */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = 2025; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B7F6F7441E852FF6005AF787 /* Frameworks */ = {
@@ -645,6 +650,8 @@
 		B7F6F7491E852FF6005AF787 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				663745C22F49E494002841A2 /* 2026 */,
+				66891B6C2DFACAB8008539AE /* 2025 */,
 				663433E62B3435B00078F521 /* Thinking in SwiftUI */,
 				6699CEA72ABB3E460044E175 /* Functional Swift */,
 				67DFBDAD23A613D300BAD475 /* Asked */,
@@ -744,6 +751,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				663745C22F49E494002841A2 /* 2026 */,
+				66891B6C2DFACAB8008539AE /* 2025 */,
 			);
 			name = Algorithms;
 			productName = Algorithms;
