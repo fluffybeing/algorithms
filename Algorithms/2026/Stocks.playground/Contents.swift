@@ -1,7 +1,7 @@
 import UIKit
 
 
-// If my current profit is greater than maxProfit
+// If my current profit is greater than 0
 // then I will advance the buying time as I want to
 // check if that will increase the profit
 // if not, then I will decrease the selling time
@@ -16,10 +16,10 @@ func maxProfit(prices: [Int]) -> Int {
 
     maxProfit = max(maxProfit, currentProfit)
     
-    if currentProfit < 0 {
-      end -= 1
-    } else {
+    if currentProfit > 0 {
       start += 1
+    } else {
+      end -= 1
     }
   }
   return maxProfit
