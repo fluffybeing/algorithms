@@ -120,6 +120,7 @@
 
 /* Begin PBXFileReference section */
 		663433E72B3435D20078F521 /* Chapter1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter1.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		663745CC2F49FAAD002841A2 /* MoveZeros.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MoveZeros.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		665FDE382B3B7FFE00F75CEF /* Combine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Combine.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		665FDE582B44012500F75CEF /* Chapter2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Chapter2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6699CEA82ABB3E780044E175 /* Thinking Functionally.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Thinking Functionally.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -672,6 +673,7 @@
 				B7F6F7511E853003005AF787 /* Arrays and Strings */,
 				67669F54230FC7D000CD707B /* Python */,
 				B7F6F74A1E852FF6005AF787 /* main.swift */,
+				663745CC2F49FAAD002841A2 /* MoveZeros.playground */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
